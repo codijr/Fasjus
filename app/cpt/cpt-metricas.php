@@ -36,7 +36,7 @@ function create_metricas_cpt() {
 		'description' => __( '', 'ceara-finance' ),
 		'labels' => $labels,
 		'menu_icon' => 'dashicons-chart-bar',
-		'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'post-formats'),
+		'supports' => array('title', 'editor', 'excerpt'),
 		'taxonomies' => array(),
 		'public' => true,
 		'show_ui' => true,

@@ -3,13 +3,13 @@
 function create_servicos_cpt() {
 
 	$labels = array(
-		'name' => _x( 'servicos', 'Post Type General Name', 'fasjus' ),
+		'name' => _x( 'servicos', 'Post Type General Name', 'ceara-finance' ),
 		'singular_name' => _x( 'servico', 'Post Type Singular Name', 'ceara-finance' ),
-		'menu_name' => _x( 'Serviços', 'Admin Menu text', 'ceara-finance' ),
-		'name_admin_bar' => _x( 'servicos', 'Add New on Toolbar', 'ceara-finance' ),
-		'archives' => __( 'servicos Archives', 'ceara-finance' ),
-		'attributes' => __( 'servicos Attributes', 'ceara-finance' ),
-		'parent_item_colon' => __( 'Parent servicos:', 'ceara-finance' ),
+		'menu_name' => _x( 'servicos', 'Admin Menu text', 'ceara-finance' ),
+		'name_admin_bar' => _x( 'servico', 'Add New on Toolbar', 'ceara-finance' ),
+		'archives' => __( 'parceiro Archives', 'ceara-finance' ),
+		'attributes' => __( 'parceiro Attributes', 'ceara-finance' ),
+		'parent_item_colon' => __( 'Parent parceiro:', 'ceara-finance' ),
 		'all_items' => __( 'All servicos', 'ceara-finance' ),
 		'add_new_item' => __( 'Add New servico', 'ceara-finance' ),
 		'add_new' => __( 'Add New', 'ceara-finance' ),
@@ -29,14 +29,14 @@ function create_servicos_cpt() {
 		'uploaded_to_this_item' => __( 'Uploaded to this servico', 'ceara-finance' ),
 		'items_list' => __( 'servicos list', 'ceara-finance' ),
 		'items_list_navigation' => __( 'servicos list navigation', 'ceara-finance' ),
-		'filter_items_list' => __( 'Filter parceiros list', 'ceara-finance' ),
+		'filter_items_list' => __( 'Filter servicos list', 'ceara-finance' ),
 	);
 	$args = array(
-		'label' => __( 'servicos', 'ceara-finance' ),
+		'label' => __( 'servico', 'ceara-finance' ),
 		'description' => __( '', 'ceara-finance' ),
 		'labels' => $labels,
-		'menu_icon' => 'dashicons-list-view',
-		'supports' => array('title', 'editor', 'excerpt', 'thumbnail', 'post-formats'),
+		'menu_icon' => 'dashicons-businessperson',
+		'supports' => array('title', 'editor', 'thumbnail'),
 		'taxonomies' => array(),
 		'public' => true,
 		'show_ui' => true,
@@ -52,7 +52,7 @@ function create_servicos_cpt() {
 		'publicly_queryable' => true,
 		'capability_type' => 'post',
 	);
-	register_post_type( 'servicos', $args );
+	register_post_type( 'servico', $args );
 
 }
 add_action( 'init', 'create_servicos_cpt', 0 );

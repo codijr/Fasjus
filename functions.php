@@ -16,7 +16,7 @@
 
     function css_files() {
         wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css');
-        wp_enqueue_style('poppins', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+        wp_enqueue_style('poppins', 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
         wp_enqueue_style('style', get_template_directory_uri().'/assets/css/style.css', array(),'1.0.0', 'all');
         if ( is_page('sobre') == true ) {
             // só vai carregar se estiver na front-page

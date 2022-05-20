@@ -5,7 +5,7 @@ function create_membros_cpt() {
 	$labels = array(
 		'name' => _x( 'membros', 'Post Type General Name', 'ceara-finance' ),
 		'singular_name' => _x( 'membro', 'Post Type Singular Name', 'ceara-finance' ),
-		'menu_name' => _x( 'membros', 'Admin Menu text', 'ceara-finance' ),
+		'menu_name' => _x( 'Membros', 'Admin Menu text', 'ceara-finance' ),
 		'name_admin_bar' => _x( 'membro', 'Add New on Toolbar', 'ceara-finance' ),
 		'archives' => __( 'parceiro Archives', 'ceara-finance' ),
 		'attributes' => __( 'parceiro Attributes', 'ceara-finance' ),
@@ -36,7 +36,7 @@ function create_membros_cpt() {
 		'description' => __( '', 'ceara-finance' ),
 		'labels' => $labels,
 		'menu_icon' => 'dashicons-businessperson',
-		'supports' => array('title', 'excerpt', 'thumbnail'),
+		'supports' => array('title', 'editor', 'thumbnail'),
 		'taxonomies' => array(),
 		'public' => true,
 		'show_ui' => true,
