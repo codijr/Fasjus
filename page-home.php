@@ -32,11 +32,11 @@
             <div class="col-12 col-xl-6">
                 <div class="row mt-5 ">
                     <div class="col-12 col-xl-6 text-center mx-auto card1 mt-3 ">
-                        <img src="img1.svg" class="mt-5 mb-4" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/img1.svg" class="mt-5 mb-4" alt="">
                         <p class="fw-bold">Consultoria Juridica</p>
                     </div>
                     <div class="col-12 col-xl-6 text-center mx-auto card1 mt-3">
-                        <img src="img1.svg" class="mt-5 mb-4" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/img2.svg" class="mt-5 mb-4" alt="">
                         <p class="fw-bold">Consultoria Juridica</p>
                     </div>
                 </div>

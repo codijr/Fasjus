@@ -105,7 +105,7 @@
 }
 
 .secao3 {
-    background-image: url("imgfinal.svg");
+    background-image: url('assets/icons/imgfinal.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
