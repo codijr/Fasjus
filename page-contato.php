@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+
 <div class="container-fluid caixa-contato p-5">
     <div class="container mt-3 mb-5 p-5">
     <h3 class="texto-contato fw-bold">CONTATO</h3>
@@ -52,5 +53,11 @@
 </div>
 
 
+
+<?php get_footer(); ?>
+=======
+<main>
+<p>contato</p>
+</main>
 
 <?php get_footer(); ?>

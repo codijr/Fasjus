@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #FAF9F8;
+}
+
+@font-face {
+    font-family: eightiesregular;
+    src: url('../fonts/eighties-regular-webfont.woff2') format('woff2'),
+         url('../fonts/eighties-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: calc(44px + 16 * ((100vw - 320px) / 1000));
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: calc(36px + 22 * ((100vw - 320px) / 1600));
+    
+}
+
+h3 {
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: calc(30px + 18 * ((100vw - 320px) / 1600));
+}
+
+h4 {
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: calc(24px + 14 * ((100vw - 320px) / 1600));
+}
+
+
+h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 80%;
+    font-size: calc(18px + 8 * ((100vw - 320px) / 1600));
+}
+
+h6 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: calc(16px + 4 * ((100vw - 320px) / 1600));
+}
+
+a, p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: calc(14px + 2 * ((100vw - 320px) / 1600));
+}
+
+ul {
+    list-style: none !important;
+}
+hr {
+    border: 1px dashed gray;
+    background-color: transparent;
+}
