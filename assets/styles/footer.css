@@ -1,0 +1,20 @@
+
+.fluido {
+    background-color: #8E0332;
+    height: 100%;
+}
+
+.linha {
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.links {
+    text-decoration: none;
+    color: #FFB850;
+}
+
+.informes {
+    text-decoration: none;
+    color: #FFB850;
+}
