@@ -1,10 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-
-    <p>teste</p>
-
-
+<!-- Membros -->
 <div class="container " id="section-membros">
     <div class="row ">
             <div class="col-12 m-0 p-0">
@@ -34,10 +31,13 @@
                     </div>
             <?php endwhile; endif; wp_reset_postdata();?>
         </div>
-    </div>
+    </div> 
+
+    <!-- Metricas -->
+
     <div class="container" id="section-metricas">
-    <div class="row ">
-            <div class="col-12 m-0 p-0">
+    <div class="row">
+            <div class="col-12">
                 <h5> NOSSOS NÚMEROS</h5>
                 <h2> Frase sobre as métricas dos serviços da FASJUS</h2>
             </div>    
@@ -52,7 +52,7 @@
             $metrica_query = new WP_Query($args);
             if($metrica_query->have_posts()) : 
                 while ($metrica_query->have_posts()) : $metrica_query->the_post(); ?>
-                        <div class="card-metrica-content col-lg-4 col-md-6 text-center p-0 mb-5 mt-5 gap-4 ">
+                        <div class="card-metrica-content col-lg-4 col-md-6 text-center  mb-5 mt-5 gap-3 ">
                             <div class="titulo-metrica d-flex justify-content-center">
                             <h1><?php echo get_the_title($post->ID);?></h1>
                             <h1>+</h1>
@@ -63,15 +63,18 @@
             <?php endwhile; endif; wp_reset_postdata();?>
         </div>
     </div>  
-    <p>oi<p>
-    <div class="container" id="section-metricas">
-    <div class="row ">
+    
+ <!-- Servicos -->
+
+    <div class="container" id="section-servicos">
+    <div class="row justify-content-center">
             <div class="col-12 m-0 p-0">
                 <h5> NOSSOS SERVIÇOS</h5>
                 <h2> Frase resumida sobre os serviços que a FASJUS oferece</h2>
             </div>    
         </div>
-    <div class="row membros gx-3 ">
+        
+    <div class="row servicos gx-3">
         <?php 
             $args = array (
                 'post_type' => 'servico',
@@ -81,8 +84,8 @@
             $metrica_query = new WP_Query($args);
             if($metrica_query->have_posts()) : 
                 while ($metrica_query->have_posts()) : $metrica_query->the_post(); ?>
-                <div class="card-servico col-lg-4 col-md-12 ">
-                <div class="card-servico-content justify-content-center mt-5">
+                <div class="card-servico col-lg-4 col-md-12">
+                <div class="card-servico-content mt-5">
                             <div class="card-img-servico d-block">
                                 <img class=" d-block img-servico" src="<?php echo get_the_post_thumbnail_url($post->ID); ?>" alt="<?php echo get_the_title($post->ID); ?>"/>
                                 <img  class="d-block"src="<?php echo get_bloginfo('template_url') ?>/assets/icons/t-servico.svg">
