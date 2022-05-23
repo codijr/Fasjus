@@ -16,19 +16,16 @@
 
     function css_files() {
         wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css');
- page-contato
-        wp_enqueue_style('style', get_template_directory_uri().'/assets/styles/contato.css', array(),'1.0.0', 'all');
-
-        if (is_page('contato')) {
-            // só vai carregar se estiver na page contato
-            wp_enqueue_style('contato', get_template_directory_uri(). '/assets/styles/contato.css');
-
-        wp_enqueue_style('poppins', 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        wp_enqueue_style('poppins', 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
         wp_enqueue_style('style', get_template_directory_uri().'/assets/css/style.css', array(),'1.0.0', 'all');
+        wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
         if ( is_page('sobre') == true ) {
             // só vai carregar se estiver na front-page
             wp_enqueue_style('sobre', get_template_directory_uri() . '/assets/css/membros.css');
- main
+        }
+        if (is_page('contato')==true) {
+            // só vai carregar se estiver na page contato
+            wp_enqueue_style('contato', get_template_directory_uri(). '/assets/styles/contato.css');
         }
     }
     add_action('wp_enqueue_scripts', 'css_files');
