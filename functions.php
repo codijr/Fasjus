@@ -17,10 +17,16 @@
     function css_files() {
         wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css');
         wp_enqueue_style('style', get_template_directory_uri().'/assets/styles/contato.css', array(),'1.0.0', 'all');
+        wp_enqueue_style('footer', get_template_directory_uri().'/assets/styles/footer.css', array(),'1.0.0', 'all');
+
 
         if (is_page('contato')) {
             // só vai carregar se estiver na page contato
             wp_enqueue_style('contato', get_template_directory_uri(). '/assets/styles/contato.css');
+        }
+        if (is_page('footer')) {
+            // só vai carregar se estiver na page contato
+            wp_enqueue_style('footer', get_template_directory_uri(). '/assets/styles/footer.css');
         }
     }
     add_action('wp_enqueue_scripts', 'css_files');
