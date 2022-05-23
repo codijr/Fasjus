@@ -25,8 +25,12 @@
             wp_enqueue_style('contato', get_template_directory_uri(). '/assets/styles/contato.css');
         }
         if (is_page('footer')) {
-            // só vai carregar se estiver na page contato
+            // só vai carregar se estiver na page footer
             wp_enqueue_style('footer', get_template_directory_uri(). '/assets/styles/footer.css');
+        }
+        if (is_page('home')) {
+            // só vai carregar se estiver na page home
+            wp_enqueue_style('home', get_template_directory_uri(). '/assets/styles/home.css');
         }
     }
     add_action('wp_enqueue_scripts', 'css_files');
