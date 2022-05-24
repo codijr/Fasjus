@@ -1,4 +1,22 @@
 
+.navbar{
+    background-color: var(--vermelho-escuro);
+}
+.nav-item{
+    padding: 0 0rem 0 2rem !important;
+    object-fit: none;
+}
+.nav-link{
+    color: var(--branco);
+}
+.nav-link:hover{
+    color: var(--laranja-amarelado);
+   
+}
+
+.header{
+    background-color: var(--vermelho-escuro);
+}
 /* @media (min-width:300px) { 
     .logo a img:nth-child(1){
         display: none;
