@@ -39,8 +39,6 @@
     color: white;
 }
 
-
-
 .card1 {
     background: #FFFFFF;
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08);
@@ -71,6 +69,11 @@
 
 .secao2 {
     background-color: #FAF9F8;
+}
+
+.secao3 {
+    background-image: url('../images/final.jpg') !important;
+    background-size: contain;
 }
 
 .texto {
@@ -159,10 +162,6 @@
     color: #000000;
 }
 
-
-
-
-
 .frase-final {
     font-style: normal;
     font-weight: 600;
@@ -173,12 +172,13 @@
 }
 
 .chamadaa {
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-/* identical to box height */
-    text-align: center;
-    color: #FFFFFF;
 }
+
+.final-text {
+    margin-top: 100px;
+}
+
     
