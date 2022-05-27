@@ -25,7 +25,7 @@
                         <h3 class=" mt-3">Contatos</h3>
                         <hr class="linha">
                         <div class="d-flex flex-column justify-content-between">
-                            <p class="mt-3 informes"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/local.svg" width="10px" class="me-2" alt="">Ave. Heráclito Graça,  826 Centro,
+                            <p class="mt-3 informes"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/local.svg" width="10px" class="me-2" alt="">Ave. Heráclito Graça, 826 Centro,
                                 Fortaleza - CE</p>
                         
                             <p class="mt-1 informes"><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/email.svg" width="15px" class="me-2" alt="">fasus@gmail.com</p>
