@@ -1,7 +1,93 @@
 <?php get_header(); ?>
 
 <main>
+
+<div class="container-fluid caixa-contato p-5">
+    <div class="container mt-3 mb-5 p-5">
+    <h3 class="texto-contato fw-bold">FASJUS EMPRESA JÚNIOR</h3>
+    <h1 class="display-5 fw-bold text-white frase">Frase de impacto <br> sobre quem somos</h1>
+    </div>
+</div>
+
+<div class="container p-5">
+    <div class="row mt-5 linha">
+        <div class="col-6">
+            <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">QUEM SOMOS</h3>
+            <p class="text-center text-md-start text-xl-start entre-contato">Frase em resumo / Frase temática sobre a FASJUS</p>
+            <p>A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
+                (FAS), fundada em novembro de 2019 e federada no dia 01 de julho de 2020. A partir do inconformismo com a realidade e diante da vontade 
+                de expandir nossas capacidades intelectuais, profissionais, jurídicas e 
+                mercadológicas.
+            </p>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tribunal.png" class="img-direita" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/orn13.jpg" class="orn13 fixed" alt="">
+            
+        </div>
+    </div>
+
+
+    <div class="row linha mt-5">
+        <div class="col-6 d-flex justify-content-center">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/trib-redondo.png" class="rounded-circle trib-redondo" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ornamente.svg" class="ornament" alt="">
+        </div>
+        <div class="col-6">
+            <p class="text-center text-md-start text-xl-start entre-contato">Frase em resumo / Frase temática sobre a FASJUS</p>
+            <p class="mb-5">Somos compostos por uma equipe de universitários que acreditam cada vez mais no poder da educação e que utilizam da <span class="text-warning">Advocacia Preventiva</span> para auxiliar os seus clientes na resolução de possíveis conflitos, além de guiá-los nas melhores escolhas assessorando os seus empreendimentos para uma 
+            melhor relação no mundo jurídico.
+            </p>
+        </div>
+        
+    </div>
+
+</div>
+
+<div class="container p-5">
+<h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSOS DIFERENCIAIS</h3>
+<p class="text-center text-md-start text-xl-start entre-contato">Por que contratar os serviços da FASJUS?</p>
+</div>
+
+
+
+<!-- 
+<div class="container-fluid segundo d-flex justify-content-evenly">
+    
+    <div class="card text-center d-flex  mt-5 align-items-center">
+        
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mt-5 mb-4" alt="">
+        <h5 class="mb-4">Diferencial</h5>
+        <p>Descrição do diferencial</p>
+    </div>
+    <div class="card text-center d-flex  mt-5 align-items-center mt-5">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mt-5 mb-4" alt="">
+        <h5 class="mb-4">Diferencial</h5>
+        <p>Descrição do diferencial</p>
+    </div>
+    <div class="card text-center d-flex  mt-5 align-items-center mt-5">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mt-5 mb-4" alt="">
+        <h5 class="mb-4">Diferencial</h5>
+        <p>Descrição do diferencial</p>
+    </div>
+</div>
+-->
+
+
+<img src="<?php echo get_template_directory_uri(); ?>/assets/images/orn77.jpg" class="orn77" alt="">
+
+
+
 <!-- Membros -->
+<br> <br><br><br><br><br>
+<br> <br><br><br><br><br>
+
+<br> <br><br><br><br><br>
+
+<br> <br><br><br><br><br>
+
+<br> <br><br><br><br><br>
+
 <div class="container " id="section-membros">
     <div class="row ">
             <div class="col-12 m-0 p-0">
