@@ -80,3 +80,68 @@
     }
 
 }
+
+/* Inicio pagina */
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trib-redondo {
+position: relative;
+
+}
+
+.ornament {
+    position: absolute;
+    width: 100px;
+    height: 38.84px;
+    left: 291px;
+    top: 1096px;
+    z-index: -9;
+}
+
+.img-direita {
+    width: 350px;
+    height: 240px;
+}
+
+.orn13 {
+    position: absolute;
+    width: 129.76px;
+    height: 125px;
+    left: 1162px;
+    top: 800px;
+    z-index: -9;
+}
+
+.orn77 {
+    position: absolute;
+    width: 92.35px;
+    height: 80px;
+    left: 10px;
+    top: 1171px;
+    z-index: -9;
+    background: #FFB850;
+    opacity: 0.5;
+}
+
+.segundo {
+    margin-top: 50px;
+    background-color: #FAF9F8;
+}
+
+.elipse {
+    width: 75px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 350px;
+    height: 350px;
+}
+
+
