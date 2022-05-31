@@ -11,31 +11,29 @@
 
 <div class="container p-5">
     <div class="row mt-5 linha">
-        <div class="col-6">
+        <div class="col-12 col-md-6 col-xl-6">
             <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">QUEM SOMOS</h3>
             <p class="text-center text-md-start text-xl-start entre-contato">Frase em resumo / Frase temática sobre a FASJUS</p>
-            <p>A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
+            <p class="text-center text-md-start text-xl-start">A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
                 (FAS), fundada em novembro de 2019 e federada no dia 01 de julho de 2020. A partir do inconformismo com a realidade e diante da vontade 
                 de expandir nossas capacidades intelectuais, profissionais, jurídicas e 
                 mercadológicas.
             </p>
         </div>
-        <div class="col-6 d-flex justify-content-center">
+        <div class="col-12 col-md-6 col-xl-6 d-flex justify-content-center align-items-center img">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tribunal.png" class="img-direita" alt="">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/orn13.jpg" class="orn13 fixed" alt="">
             
         </div>
     </div>
 
 
     <div class="row linha mt-5">
-        <div class="col-6 d-flex justify-content-center">
+        <div class="col-12 col-md-6 col-xl-6 d-flex justify-content-center">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/trib-redondo.png" class="rounded-circle trib-redondo" alt="">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ornamente.svg" class="ornament" alt="">
         </div>
-        <div class="col-6">
-            <p class="text-center text-md-start text-xl-start entre-contato">Frase em resumo / Frase temática sobre a FASJUS</p>
-            <p class="mb-5">Somos compostos por uma equipe de universitários que acreditam cada vez mais no poder da educação e que utilizam da <span class="text-warning">Advocacia Preventiva</span> para auxiliar os seus clientes na resolução de possíveis conflitos, além de guiá-los nas melhores escolhas assessorando os seus empreendimentos para uma 
+        <div class="col-12 col-md-6 col-xl-6">
+            <p class="text-center text-md-start text-xl-start entre-contato mt-3">Frase em resumo / Frase temática sobre a FASJUS</p>
+            <p class="mb-5 text-center text-md-start text-xl-start">Somos compostos por uma equipe de universitários que acreditam cada vez mais no poder da educação e que utilizam da <span class="text-warning">Advocacia Preventiva</span> para auxiliar os seus clientes na resolução de possíveis conflitos, além de guiá-los nas melhores escolhas assessorando os seus empreendimentos para uma 
             melhor relação no mundo jurídico.
             </p>
         </div>
@@ -43,12 +41,80 @@
     </div>
 
 </div>
+<div class="container-fluid segundo">
+
 
 <div class="container p-5">
 <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSOS DIFERENCIAIS</h3>
-<p class="text-center text-md-start text-xl-start entre-contato">Por que contratar os serviços da FASJUS?</p>
+<p class="text-center text-md-start text-xl-start mb-5 entre-contato">Por que contratar os serviços da FASJUS?</p>
+
+<div class="row d-flex justify-content-evenly align-items-center text-center">
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card-content">
+           <h4 class="text-start p-3">01</h4> 
+           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
+           <h5 class="mb-4">Diferencial</h5>
+        <p>Descrição do diferencial</p>
+        </div>
+        
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card-content">
+        <h4 class="text-start p-3">02</h4> 
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
+        <h5 class="mb-4">Diferencial</h5>
+        <p>Descrição do diferencial</p>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+    <div class="card-content">
+    <h4 class="text-start p-3">03</h4> 
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
+    <h5 class="mb-4">Diferencial</h5>
+        <p>Descrição do diferencial</p>
+    </div>
+    </div>
+</div>
 </div>
 
+
+</div>
+
+<div class="container p-5">
+<h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSA CULTURA ORGANIZACIONAL </h3>
+<p class="text-center text-md-start text-xl-start mb-5 entre-contato">Conheça o fit cultural da FASJUS</p>
+
+<div class="row d-flex justify-content-evenly">
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card-content-last p-4">
+           <h5 class="mb-4">Missão</h5>
+            <p>Atuar positivamente no mercado jurídico auxiliando no desenvolvimento 
+            socioeducativo dos membros, tornando-os profissionais ativos de alto impacto, 
+            possibilitando tornar o Direito mais acessível e humanizado com os integrantes e 
+            parceiros da FASJUS.</p>
+        </div>
+        
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+        <div class="card-content-last p-4">
+        <h5 class="mb-4">Visão</h5>
+        <p>Ser referência entre as Empresas Juniores de direito no mercado jurídico
+        brasileiro, assegurando a satisfação do cliente e o desenvolvimento educacional
+        dos membros da Empresa Júnior.</p>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-xl-4">
+    <div class="card-content-last p-4">
+ 
+    <h5 class="mb-4">Valores</h5>
+        <p>Acreditamos em empolgação, coragem, trabalho em equipe, comprometimento com o 
+        cliente, responsabilidade, inovação, organização, inconformismo, e acima de tudo, priorizamos conexões mais humanas objetivando o bem-estar de nossos 
+        clientes e membros.
+</p>
+    </div>
+    </div>
+</div>
+</div>
 
 
 <!-- 
