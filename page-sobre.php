@@ -5,7 +5,7 @@
 <div class="container-fluid caixa-contato p-5">
     <div class="container mt-3 mb-5 p-5">
     <h3 class="texto-contato fw-bold">FASJUS EMPRESA JÚNIOR</h3>
-    <h1 class="display-5 fw-bold text-white frase">Frase de impacto <br> sobre quem somos</h1>
+    <h1 class="display-5 fw-bold text-white frase">FASJUS Empresa <br> Júnior</h1>
     </div>
 </div>
 
@@ -13,7 +13,7 @@
     <div class="row mt-5 linha">
         <div class="col-12 col-md-6 col-xl-6">
             <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">QUEM SOMOS</h3>
-            <p class="text-center text-md-start text-xl-start entre-contato">Frase em resumo / Frase temática sobre a FASJUS</p>
+            <p class="text-center text-md-start text-xl-start entre-contato">Somos uma empresa de Impacto:</p>
             <p class="text-center text-md-start text-xl-start">A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
                 (FAS), fundada em novembro de 2019 e federada no dia 01 de julho de 2020. A partir do inconformismo com a realidade e diante da vontade 
                 de expandir nossas capacidades intelectuais, profissionais, jurídicas e 
@@ -32,7 +32,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/trib-redondo.png" class="rounded-circle trib-redondo" alt="">
         </div>
         <div class="col-12 col-md-6 col-xl-6">
-            <p class="text-center text-md-start text-xl-start entre-contato mt-3">Frase em resumo / Frase temática sobre a FASJUS</p>
+            <p class="text-center text-md-start text-xl-start entre-contato mt-3">Soluções menos burocráticas, contato mais humanizado.</p>
             <p class="mb-5 text-center text-md-start text-xl-start">Somos compostos por uma equipe de universitários que acreditam cada vez mais no poder da educação e que utilizam da <span class="text-warning">Advocacia Preventiva</span> para auxiliar os seus clientes na resolução de possíveis conflitos, além de guiá-los nas melhores escolhas assessorando os seus empreendimentos para uma 
             melhor relação no mundo jurídico.
             </p>
@@ -53,8 +53,8 @@
         <div class="card-content">
            <h4 class="text-start p-3">01</h4> 
            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
-           <h5 class="mb-4">Diferencial</h5>
-        <p>Descrição do diferencial</p>
+           <h5 class="mb-4">Contato humanizado</h5>
+           <p class="">Proporcionar um contato mais humanizado e específico para cada um dos clientes.</p>
         </div>
         
     </div>
@@ -62,16 +62,16 @@
         <div class="card-content">
         <h4 class="text-start p-3">02</h4> 
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
-        <h5 class="mb-4">Diferencial</h5>
-        <p>Descrição do diferencial</p>
+        <h5 class="mb-4">Compromisso</h5>
+        <p class="">Manter o compromisso com o cliente, a fim de entregar os melhores resultados com excelência.</p>
         </div>
     </div>
     <div class="col-12 col-md-6 col-xl-4">
     <div class="card-content">
     <h4 class="text-start p-3">03</h4> 
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
-    <h5 class="mb-4">Diferencial</h5>
-        <p>Descrição do diferencial</p>
+    <h5 class="mb-4">Inconformismo</h5>
+        <p>Sempre buscar o melhor para o mercado.</p>
     </div>
     </div>
 </div>
@@ -95,7 +95,7 @@
         </div>
         
     </div>
-    <div class="col-12 col-md-6 col-xl-4">
+    <div class="col-12 col-md-6 col-xl-4 mb-5">
         <div class="card-content-last p-4">
         <h5 class="mb-4">Visão</h5>
         <p>Ser referência entre as Empresas Juniores de direito no mercado jurídico
@@ -145,14 +145,7 @@
 
 
 <!-- Membros -->
-<br> <br><br><br><br><br>
-<br> <br><br><br><br><br>
 
-<br> <br><br><br><br><br>
-
-<br> <br><br><br><br><br>
-
-<br> <br><br><br><br><br>
 
 <div class="container " id="section-membros">
     <div class="row ">
