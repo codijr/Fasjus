@@ -157,7 +157,7 @@ position: relative;
     background: #FFFFFF;
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08);
     border-radius: 8px;
-    height: 237px;
+    height: 317px;
 }
 
 .card-content-paragrafo {
@@ -168,5 +168,24 @@ position: relative;
     text-align: center;
     color: #000000;
     
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.titulo1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
 }
 

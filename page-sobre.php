@@ -53,7 +53,7 @@
         <div class="card-content">
            <h4 class="text-start p-3">01</h4> 
            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
-           <h5 class="mb-4">Contato humanizado</h5>
+           <h5 class="mb-4 titulo1">Contato humanizado</h5>
            <p class="">Proporcionar um contato mais humanizado e específico para cada um dos clientes.</p>
         </div>
         
@@ -62,7 +62,7 @@
         <div class="card-content">
         <h4 class="text-start p-3">02</h4> 
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
-        <h5 class="mb-4">Compromisso</h5>
+        <h5 class="mb-4 titulo1">Compromisso</h5>
         <p class="">Manter o compromisso com o cliente, a fim de entregar os melhores resultados com excelência.</p>
         </div>
     </div>
@@ -70,7 +70,7 @@
     <div class="card-content">
     <h4 class="text-start p-3">03</h4> 
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
-    <h5 class="mb-4">Inconformismo</h5>
+    <h5 class="mb-4 titulo1">Inconformismo</h5>
         <p>Sempre buscar o melhor para o mercado.</p>
     </div>
     </div>
@@ -85,9 +85,9 @@
 <p class="text-center text-md-start text-xl-start mb-5 entre-contato">Conheça o fit cultural da FASJUS</p>
 
 <div class="row d-flex justify-content-evenly">
-    <div class="col-12 col-md-6 col-xl-4">
+    <div class="col-12 col-md-6 col-xl-4 mb-5">
         <div class="card-content-last p-4">
-           <h5 class="mb-4">Missão</h5>
+           <h5 class="mb-3 titulo">Missão</h5>
             <p>Atuar positivamente no mercado jurídico auxiliando no desenvolvimento 
             socioeducativo dos membros, tornando-os profissionais ativos de alto impacto, 
             possibilitando tornar o Direito mais acessível e humanizado com os integrantes e 
@@ -97,16 +97,16 @@
     </div>
     <div class="col-12 col-md-6 col-xl-4 mb-5">
         <div class="card-content-last p-4">
-        <h5 class="mb-4">Visão</h5>
+        <h5 class="mb-3 titulo">Visão</h5>
         <p>Ser referência entre as Empresas Juniores de direito no mercado jurídico
         brasileiro, assegurando a satisfação do cliente e o desenvolvimento educacional
         dos membros da Empresa Júnior.</p>
         </div>
     </div>
-    <div class="col-12 col-md-6 col-xl-4">
+    <div class="col-12 col-md-6 col-xl-4 mb-5">
     <div class="card-content-last p-4">
  
-    <h5 class="mb-4">Valores</h5>
+    <h5 class="mb-3 titulo">Valores</h5>
         <p>Acreditamos em empolgação, coragem, trabalho em equipe, comprometimento com o 
         cliente, responsabilidade, inovação, organização, inconformismo, e acima de tudo, priorizamos conexões mais humanas objetivando o bem-estar de nossos 
         clientes e membros.
