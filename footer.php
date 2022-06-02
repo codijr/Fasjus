@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 col-xl-3 text-center mt-3 mb-5 text-white">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo.svg" class="mt-4" width="100%" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo.svg" class="mt-4 logoof" width="100%" alt="">
                         <h4 class="mt-4">Frase tematica da empresa</h4>
                         <h5>© FASJUS EJ 2019-2022.</h5>
                         <p class="mb-5">Todos os direitos reservados.</p>
