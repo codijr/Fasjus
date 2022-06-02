@@ -9,33 +9,29 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-          <div class="container">
-          <div class="col-3 logo">
+<nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container">
+            <div class="logo">
                 <a href="#" style="text-decoration:none;">
-                <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/logo2.svg" alt="logo" >
+                    <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/logo2.svg" alt="logo" >
+                    <!-- <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/logo1.svg" alt="logo"> -->
                 </a> 
             </div>
-         
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse col-6 menu" id="navbarNav" >
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
+            <div class="collapse navbar-collapse justify-content-end  menu" id="navbarNav" >
+              <!-- Criar menus no wordpress com o nome "main_nav" para o menu aparecer -->
+              <?php wp_nav_menu(array(
+                    'menu' => 'main_nav',
+                    'menu_class' => 'navbar-nav',
+                    'theme_location' => 'primary',
+                    'container' => 'false',
+                    // 'walker' => new WP_Bootstrap_Navwalker()
+                    )
+                    );?>
+              
+                
             </div>
-</div>
-       
-      </nav>
-    
-  </header>
+        </div>
+    </nav>
