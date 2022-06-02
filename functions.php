@@ -41,10 +41,8 @@
             // só vai carregar se estiver na page footer
             wp_enqueue_style('footer', get_template_directory_uri(). '/assets/css/footer.css');
         }
-        if (is_page('home')) {
-            // só vai carregar se estiver na page home
-            wp_enqueue_style('home', get_template_directory_uri(). '/assets/css/home.css');
-        }
+        if ( is_front_page() == true ) {         // só vai carregar se estiver na front-page         
+            wp_enqueue_style('home', get_template_directory_uri() . '/assets/css/home.css');     }
     }
     add_action('wp_enqueue_scripts', 'css_files');
 
