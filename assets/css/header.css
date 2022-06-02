@@ -1,14 +1,19 @@
 
-/* @media (min-width:300px) { 
-    .logo a img:nth-child(1){
-        display: none;
 
-    }
+.navbar{
+    background-color: var(--vermelho-escuro);
 }
-@media (max-width:300px) {
-    .logo a img:nth-child(2){
-        display: none;
-    }
-}
- */
 
+.menu-item{
+    margin-left: 50px;
+}
+.menu-item a{
+    font-size: 20px;
+    color: var(--branco);
+}
+.menu-item:hover a{
+    border-bottom: 2px solid var(--laranja-amarelado) !important;
+}
+.active>a{
+    border-bottom: 2px solid var(--laranja-amarelado) !important;
+}
