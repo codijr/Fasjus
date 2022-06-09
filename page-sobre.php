@@ -42,8 +42,6 @@
 
 </div>
 <div class="container-fluid segundo">
-
-
 <div class="container p-5">
 <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSOS DIFERENCIAIS</h3>
 <p class="text-center text-md-start text-xl-start mb-5 entre-contato">Por que contratar os serviços da FASJUS?</p>
@@ -208,46 +206,6 @@
             <?php endwhile; endif; wp_reset_postdata();?>
         </div>
     </div>  
-    
- <!-- Servicos -->
-
-    <div class="container" id="section-servicos">
-    <div class="row justify-content-center">
-            <div class="col-12 m-0 p-0">
-                <h5> NOSSOS SERVIÇOS</h5>
-                <h2> Frase resumida sobre os serviços que a FASJUS oferece</h2>
-            </div>    
-        </div>
-        
-    <div class="row servicos gx-3">
-        <?php 
-            $args = array (
-                'post_type' => 'servico',
-                'orderby' => 'date',
-                'order' => 'DSC',
-            );
-            $metrica_query = new WP_Query($args);
-            if($metrica_query->have_posts()) : 
-                while ($metrica_query->have_posts()) : $metrica_query->the_post(); ?>
-                <div class="card-servico col-lg-4 col-md-12">
-                <div class="card-servico-content mt-5">
-                            <div class="card-img-servico d-block">
-                                <img class=" d-block img-servico" src="<?php echo get_the_post_thumbnail_url($post->ID); ?>" alt="<?php echo get_the_title($post->ID); ?>"/>
-                                <img  class="d-block"src="<?php echo get_bloginfo('template_url') ?>/assets/icons/t-servico.svg">
-                            </div>
-                            <div class="card-text-servico ml-5">
-                                <h6><?php echo get_the_title($post->ID); ?></h6>
-                                <p><?php echo get_the_content($post->ID); ?></p>
-                        </div>
-                        
-                    </div>
-                    <div class="link-contato text-center">
-                    <a href="<?php echo get_home_url() . "/contato/"?>">Entre em contato</a>
-                    </div>
-                </div>
-                        
-            <?php endwhile; endif; wp_reset_postdata();?>
-        </div>
     </div>  
     <div class="container-fluid secao3">
         <div class="">

@@ -19,7 +19,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+main{
+    background-color: #FAF9F8;
+    margin: 0;
+}
 @font-face {
     font-family: eightiesregular;
     src: url('../fonts/eighties-regular-webfont.woff2') format('woff2'),
@@ -55,7 +58,7 @@ h4 {
 
 
 h5 {
-    color: var(--font-color-2);
+    
     font-family: 'Poppins';
     font-weight: 500;
     line-height: 80%;
@@ -67,7 +70,9 @@ h6 {
     font-weight: 500;
     font-size: calc(16px + 4 * ((100vw - 320px) / 1600));
 }
-
+h6.text-title-section{
+    color: var(--font-color-2);
+}
 a, p {
     font-family: 'Poppins';
     font-weight: 400;
@@ -85,4 +90,25 @@ ul, li {
 hr {
     border: 1px dashed gray;
     background-color: transparent;
+}
+/* estilo comum entre páginas*/
+.banner {
+    background-color: #DE2330;
+}
+
+.texto-banner {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #F2A15A;}
+
+.frase-banner {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    color: #da2525;
 }
