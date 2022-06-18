@@ -19,21 +19,21 @@
             <p class="text-center text-md-start text-xl-start"><a href="" class="btn-chat">Chat Via Whatsapp</a></p>
 
             <div class="row mt-5">
-                <div class="col-2 col-md-1 col-xl-1 mt-4 d-flex flex-column">
+                <div class="col-2 col-md-1 col-xl-1 mt-4 ">
                     <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-email.svg" width="100%" alt=""> 
                 </div>
-                <div class="col-8 ms-4 d-flex flex-column mt-2">
+                <div class="col-8 ms-4 d-flex flex-column mt-3">
                     
                 <p class="fw-bold">Ou envie um e-mail para a gente</p>
                     <p>Fasjusej@gmail.com</p>
 
                 </div>
                 <div class="row">
-                <div class="col-2 col-md-1 col-xl-1 mt-4 d-flex flex-column">
+                <div class="col-2 col-md-1 col-xl-1 mt-4">
                 <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-email.svg" width="100%" alt=""> 
 
                 </div>
-                <div class="col-8 ms-4 d-flex flex-column mt-2">
+                <div class="col-8 ms-4 d-flex flex-column mt-3">
                     
                 <p class="fw-bold">Ou envie um e-mail para a gente</p>
                     <p>Fasjusej@gmail.com</p>
@@ -55,9 +55,8 @@
 
 
 <?php get_footer(); ?>
-=======
+
 <main>
-<p>contato</p>
 </main>
 
 <?php get_footer(); ?>
