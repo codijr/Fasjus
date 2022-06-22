@@ -6,7 +6,8 @@
 
 .linha {
   width: 100%;
-  border: 1px solid rgb(255, 255, 255);
+  margin-top: 20px;
+  border: 1px solid white;
 }
 
 .links {
@@ -17,4 +18,37 @@
 .informes {
     text-decoration: none;
     color: #FFB850;
+}
+
+.time {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.ano {
+    /* Body - Light */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
 }

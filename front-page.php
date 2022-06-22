@@ -6,10 +6,11 @@
             <di class="row">
                 <div class="col-12  text-center text-md-start text-xl-start">
                     <h5 class="mt-5 pergunta">FASJUS EJ</h5>
-                    <h1 class="fw-bold frase">Insira uma frase resumindo <br>
-                        a <span class="fasjusej">FASJUS EJ</span>
+                    <h1 class="fw-bold frase">Time  <span class="fasjusej">pequeno</span> fazendo<br>
+                    história 
+                        <span class="fasjusej">grande</span>
                     </h1>
-                    <h4 class="fw-light mb-5 mt-3 paragrafo">Insira um texto para conhecer a FASJUS de maneira resumida.</h3>
+                    <h4 class="fw-light mb-5 mt-3 paragrafo">Insira um texto para conhecer a FASJUS de <br> maneira resumida.</h3>
                     <a href="" class="btn-conheca">Conheça a FASJUS</a>
                     <br><br><br>
                 </div>
@@ -36,7 +37,7 @@
             </div>
             <div class="col-12 col-xl-3 text-center">
                 <div class="card1">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/img1.svg" class="mt-5 mb-4" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/martelo.svg" class="mt-5 mb-4" alt="">
                     <p class="fw-bold">Consultoria Juridica</p>
                 </div>
             </div>
@@ -45,8 +46,8 @@
 </div>
 
     <div class="container-fluid secao3">
-        <div class="">
-            <br><br><br>
+        <div class="chamada">
+            
         <p class="text-center text-white chamadaa">Chamada do cliente para o contato</p>
             <p class=" text-white frase-final">Frase para convidar o cliente <br> para contactar a empresa</p>
             <p class="text-center mt-5"><a href="" class="btn-servicos text-center">Entre em contato</a></p>
