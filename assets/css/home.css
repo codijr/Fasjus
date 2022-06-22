@@ -108,6 +108,10 @@
 }
 
 .secao3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url('assets/icons/imgfinal.svg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -123,7 +127,7 @@
     line-height: 30px;
 /* identical to box height */
     letter-spacing: 0.1em;
-    color: rgba(0, 0, 0, 0.54);
+    color: black;
 }
 
 .frase {
@@ -177,8 +181,6 @@
     line-height: 30px;
 }
 
-.final-text {
-    margin-top: 100px;
-}
+
 
     
