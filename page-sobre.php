@@ -147,7 +147,7 @@
 <!-- Membros -->
 
 
-<div class="container " id="section-membros">
+<div class="container p-5" id="section-membros">
     <div class="row ">
             <div class="col-12 m-0 p-0">
                 <h5> NOSSO TIME</h5>
@@ -180,7 +180,7 @@
 
     <!-- Metricas -->
 
-    <div class="container" id="section-metricas">
+    <div class="container p-5" id="section-metricas">
     <div class="row">
             <div class="col-12">
                 <h5> NOSSOS NÚMEROS</h5>
@@ -211,7 +211,7 @@
     
  <!-- Servicos -->
 
-    <div class="container" id="section-servicos">
+    <div class="container p-5" id="section-servicos">
     <div class="row justify-content-center">
             <div class="col-12 m-0 p-0">
                 <h5> NOSSOS SERVIÇOS</h5>

@@ -5,11 +5,11 @@
                 <div class="row">
                     <div class="col-12 col-md-6 col-xl-3 mt-4 mb-5 text-white">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/logo2.svg" width="100%" alt="">
-                        <p class="time">Time pequeno fazendo <br> história grande.</p>
-                        <p class="ano mt-2">© FASJUS EJ 2019-2022.</p>
-                        <p class="mb-5 mt-2">Todos os direitos reservados.</p>
+                        <p class="time ms-4 text-center text-md-start text-xl-start">Time pequeno fazendo <br> história grande.</p>
+                        <p class="ano mt-2 ms-4 text-center text-md-start text-xl-start">© FASJUS EJ 2019-2022.</p>
+                        <p class=" mt-2 ms-4 text-center text-md-start text-xl-start">Todos os direitos reservados.</p>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 mt-5 mb-5 text-white text-start ps-5">
+                    <div class="col-12 col-md-6 col-xl-3 mt-5 text-white text-start ps-5">
                         <p class="mt-3 titulo">Sessões</p>
                         <hr class="linha">
                         <div class="d-flex flex-column justify-content-between">
@@ -21,7 +21,7 @@
                         </div>
                        
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 mt-5 mb-5 text-white ps-5">
+                    <div class="col-12 col-md-6 col-xl-3 mt-5 text-white ps-5">
                         <p class="mt-3 titulo">Contatos</p>
                         <hr class="linha">
                         <div class="d-flex flex-column justify-content-between">
