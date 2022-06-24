@@ -4,7 +4,7 @@
 <div class="container-fluid caixa-contato p-5">
     <div class="container mt-3 mb-5 p-5">
     <h3 class="texto-contato fw-bold">CONTATO</h3>
-    <h1 class="display-5 fw-bold text-white frase">Frase de impacto <br> sobre contactar</h1>
+    <h1 class="display-5 fw-bold text-white frase">Nosso contato</h1>
     </div>
 </div>
 
@@ -20,7 +20,7 @@
 
             <div class="row mt-5">
                 <div class="col-2 col-md-1 col-xl-1 mt-4 ">
-                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-email.svg" width="100%" alt=""> 
+                    <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-email.svg" width="90%" alt=""> 
                 </div>
                 <div class="col-8 ms-4 d-flex flex-column mt-3">
                     
@@ -30,7 +30,7 @@
                 </div>
                 <div class="row">
                 <div class="col-2 col-md-1 col-xl-1 mt-4">
-                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-email.svg" width="100%" alt=""> 
+                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-insta.svg" width="100%" alt=""> 
 
                 </div>
                 <div class="col-8 ms-4 d-flex flex-column mt-3">
