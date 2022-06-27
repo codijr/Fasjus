@@ -42,8 +42,6 @@
 
 </div>
 <div class="container-fluid segundo">
-
-
 <div class="container p-5">
 <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSOS DIFERENCIAIS</h3>
 <p class="text-center text-md-start text-xl-start mb-5 entre-contato">Por que contratar os serviços da FASJUS?</p>
@@ -208,6 +206,7 @@
             <?php endwhile; endif; wp_reset_postdata();?>
         </div>
     </div>  
+
     
  <!-- Servicos -->
 

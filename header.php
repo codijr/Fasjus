@@ -10,10 +10,10 @@
 </head>
 <body>
 <nav class="navbar sticky-top navbar-expand-lg">
-        <div class="container">
-            <div class="logo">
+        <div class="container p-0 ">
+            <div class="logo p-0 m-0">
                 <a href="#" style="text-decoration:none;">
-                    <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/logo2.svg" alt="logo" >
+                    <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/logo.svg" alt="logo" >
                     <!-- <img src="<?php echo get_bloginfo('template_url') ?>/assets/images/logo1.svg" alt="logo"> -->
                 </a> 
             </div>
