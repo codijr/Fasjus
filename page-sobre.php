@@ -14,14 +14,14 @@
         <div class="col-12 col-md-12 col-xl-6">
             <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">QUEM SOMOS</h3>
             <p class="text-center text-md-start text-xl-start entre-contato">Somos uma empresa de Impacto:</p>
-            <p class="text-center text-md-start text-xl-start">A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
+            <p class="text-center text-md-start text-xl-start mt-3 mb-5">A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
                 (FAS), fundada em novembro de 2019 e federada no dia 01 de julho de 2020. A partir do inconformismo com a realidade e diante da vontade 
                 de expandir nossas capacidades intelectuais, profissionais, jurídicas e 
                 mercadológicas.
             </p>
         </div>
         <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center align-items-center img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tribunal.png" class="img-direita" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/tribunal.svg" width="70%" class="tribunal" alt="">
             
         </div>
     </div>
@@ -29,7 +29,7 @@
 
     <div class="row linha mt-5">
         <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/trib-redondo.png" class="rounded-circle trib-redondo" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/trib-redondo.svg" class= "trib-redondo mb-5" alt="">
         </div>
         <div class="col-12 col-md-12 col-xl-6">
             <p class="text-center text-md-start text-xl-start entre-contato mt-3">Soluções menos burocráticas, contato mais humanizado.</p>
@@ -49,27 +49,27 @@
 <div class="row d-flex justify-content-evenly align-items-center text-center">
     <div class="col-12 col-md-6 col-xl-4">
         <div class="card-content">
-           <h4 class="text-start p-3">01</h4> 
+           <h4 class="text-start p-3 um">01</h4> 
            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
            <h5 class="mb-4 titulo1">Contato humanizado</h5>
-           <p class="">Proporcionar um contato mais humanizado e específico para cada um dos clientes.</p>
+           <p class="text-card mb-5">Proporcionar um contato mais humanizado e específico para cada um dos clientes.</p>
         </div>
         
     </div>
     <div class="col-12 col-md-6 col-xl-4">
         <div class="card-content">
-        <h4 class="text-start p-3">02</h4> 
+        <h4 class="text-start p-3 dois">02</h4> 
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
         <h5 class="mb-4 titulo1">Compromisso</h5>
-        <p class="">Manter o compromisso com o cliente, a fim de entregar os melhores resultados com excelência.</p>
+        <p class="text-card">Manter o compromisso com o cliente, a fim de entregar os melhores resultados com excelência.</p>
         </div>
     </div>
     <div class="col-12 col-md-6 col-xl-4">
     <div class="card-content">
-    <h4 class="text-start p-3">03</h4> 
+    <h4 class="text-start p-3 tres">03</h4> 
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/elipse-laranja.png" class="elipse mb-4" alt="">
     <h5 class="mb-4 titulo1">Inconformismo</h5>
-        <p>Sempre buscar o melhor para o mercado.</p>
+        <p class="text-card">Sempre buscar o melhor para o mercado.</p>
     </div>
     </div>
 </div>
@@ -145,7 +145,7 @@
 <!-- Membros -->
 
 
-<div class="container " id="section-membros">
+<div class="container p-5" id="section-membros">
     <div class="row ">
             <div class="col-12 m-0 p-0">
                 <h5> NOSSO TIME</h5>
@@ -178,7 +178,7 @@
 
     <!-- Metricas -->
 
-    <div class="container" id="section-metricas">
+    <div class="container p-5" id="section-metricas">
     <div class="row">
             <div class="col-12">
                 <h5> NOSSOS NÚMEROS</h5>
@@ -206,6 +206,47 @@
             <?php endwhile; endif; wp_reset_postdata();?>
         </div>
     </div>  
+
+    
+ <!-- Servicos -->
+
+    <div class="container p-5" id="section-servicos">
+    <div class="row justify-content-center">
+            <div class="col-12 m-0 p-0">
+                <h5> NOSSOS SERVIÇOS</h5>
+                <h2> Frase resumida sobre os serviços que a FASJUS oferece</h2>
+            </div>    
+        </div>
+        
+    <div class="row servicos gx-3">
+        <?php 
+            $args = array (
+                'post_type' => 'servico',
+                'orderby' => 'date',
+                'order' => 'DSC',
+            );
+            $metrica_query = new WP_Query($args);
+            if($metrica_query->have_posts()) : 
+                while ($metrica_query->have_posts()) : $metrica_query->the_post(); ?>
+                <div class="card-servico col-lg-4 col-md-12">
+                <div class="card-servico-content mt-5">
+                            <div class="card-img-servico d-block">
+                                <img class=" d-block img-servico" src="<?php echo get_the_post_thumbnail_url($post->ID); ?>" alt="<?php echo get_the_title($post->ID); ?>"/>
+                                <img  class="d-block"src="<?php echo get_bloginfo('template_url') ?>/assets/icons/t-servico.svg">
+                            </div>
+                            <div class="card-text-servico ml-5">
+                                <h6><?php echo get_the_title($post->ID); ?></h6>
+                                <p><?php echo get_the_content($post->ID); ?></p>
+                        </div>
+                        
+                    </div>
+                    <div class="link-contato text-center">
+                    <a href="<?php echo get_home_url() . "/contato/"?>">Entre em contato</a>
+                    </div>
+                </div>
+                        
+            <?php endwhile; endif; wp_reset_postdata();?>
+        </div>
     </div>  
     <div class="container-fluid secao3">
         <div class="">

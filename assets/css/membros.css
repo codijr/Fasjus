@@ -40,11 +40,12 @@
     display: flex;
     justify-content: space-between;
 }
-
-.trib-redondo {
-position: relative;
-
+@media (max-width:450px) {
+    .tribunal {
+display: none;
+    }  
 }
+
 
 .ornament {
     position: absolute;
@@ -56,7 +57,7 @@ position: relative;
 }
 
 .img-direita {
-    width: 350px;
+    width: 100%;
     height: 240px;
 }
 
@@ -103,15 +104,31 @@ position: relative;
     border-radius: 8px;
     margin-bottom: 60px;
     width: 100%;
-    height: 350px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.card-content h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start; 
+}
 .card-content-last {
     background: #FFFFFF;
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08);
     border-radius: 8px;
-    height: 317px;
+    height: 100%;
+    
 }
+
+.text-card {
+    width: 70%;
+    
+}
+
 
 .card-content-paragrafo {
     font-style: normal;
@@ -220,6 +237,27 @@ position: relative;
 .secao3 {
     background-image: url('../images/final.jpg') !important;
     background-size: contain;
+}
+
+.texto-contato {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #000000;
+    }
+
+.entre-contato {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #000000;
 }
 
 .texto {

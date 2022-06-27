@@ -3,7 +3,7 @@
     color: #FFB850;
 }
 
-.btn-servicos {
+.btn-servicos { 
     padding: 14px 43px;
     width: 281px;
     height: 49px;
@@ -18,6 +18,7 @@
     text-decoration: none;
     color: #FFFFFF;
 }
+
 
 .btn-servicos:hover {
     color: white;
@@ -37,6 +38,34 @@
 
 .btn-conheca:hover {
     color: white;
+}
+
+@media (max-width:411px) {
+    .btn-conheca {
+        padding: 14px;
+        width: 234px;
+        height: 49px;
+        text-decoration: none;
+        color: white;
+        background: #DE2330;
+        box-shadow: 0px 12px 24px 6px rgba(242, 161, 90, 0.08), 0px 24px 48px 6px rgba(242, 161, 90, 0.08);
+        border-radius: 4px;
+    }
+    .btn-servicos {
+        padding: 14px;
+        width: 301px;
+        height: 49px;
+        background: #DE2330;
+        box-shadow: 0px 12px 24px 6px rgba(242, 161, 90, 0.08), 0px 24px 48px 6px rgba(242, 161, 90, 0.08);
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
 }
 
 .card1 {
@@ -108,6 +137,10 @@
 }
 
 .secao3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url('assets/icons/imgfinal.svg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -123,7 +156,7 @@
     line-height: 30px;
 /* identical to box height */
     letter-spacing: 0.1em;
-    color: rgba(0, 0, 0, 0.54);
+    color: black;
 }
 
 .frase {
@@ -135,10 +168,11 @@
 }
 
 .paragrafo {
-    font-weight: bold;
-    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
     line-height: 48px;
-    
+
     color: #000000;
 }
 
@@ -177,8 +211,6 @@
     line-height: 30px;
 }
 
-.final-text {
-    margin-top: 100px;
-}
+
 
     
