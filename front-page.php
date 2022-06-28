@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <main> 
-<div class="container-fluid">
-        <div class="container">
+<div class="container-fluid bg-white">
+        <div class="container comeco">
             <di class="row p-5">
-                <div class="col-12  text-center text-md-start text-xl-start">
+                <div class="col-12  text-center text-sm-start text-md-start text-xl-start">
                     <h5 class="mt-5 pergunta">FASJUS EJ</h5>
                     <h1 class="fw-bold frase">Time  <span class="fasjusej">pequeno</span> fazendo<br>
                     história 

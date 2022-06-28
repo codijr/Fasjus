@@ -96,6 +96,31 @@
     color: #000000;
 }
 
+
+
+
+.comeco {
+    background-image: url('../images/fundohome.svg') !important;
+    background-size: contain;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media (max-width: 1220px) {
+    .secao1 {
+        background-size: 40%;
+        transition: 0.2s;
+    }
+}
+
+@media (max-width: 920px) {
+    .secao1 {
+        background-size: 0%;
+    }
+}
+
+
 .secao2 {
     background-color: #FAF9F8;
 }

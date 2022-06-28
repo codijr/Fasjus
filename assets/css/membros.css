@@ -36,13 +36,23 @@
 
 /* Inicio pagina */
 
+.caixa-contato {
+    background-color: #DE2330;
+}
+
+.about-container {
+    background-color: white;
+}
+
 .linha {
+    border: none;
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
 @media (max-width:450px) {
     .tribunal {
-display: none;
+        display: none;
     }  
 }
 
@@ -248,7 +258,7 @@ display: none;
 
     letter-spacing: 0.1em;
 
-    color: #000000;
+    color: #F2A15A;
     }
 
 .entre-contato {
