@@ -255,15 +255,7 @@
             <?php endwhile; endif; wp_reset_postdata();?>
         </div>
     </div>  
-    <div class="container-fluid secao3">
-        <div class="">
-            <br><br><br>
-        <p class="text-center text-white chamadaa">Chamada do cliente para o contato</p>
-            <p class=" text-white frase-final">Frase para convidar o cliente <br> para contactar a empresa</p>
-            <p class="text-center mt-5"><a href="" class="btn-servicos text-center">Entre em contato</a></p>
-        </div>
-
-    </div>
+    
 
 </main>
 

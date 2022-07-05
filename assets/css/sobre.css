@@ -1,75 +1,144 @@
+.caixa-contato {
+    background-color: #DE2330;
+}
 
-.fluido {
-    background-color: #8E0332;
-    height: 100%;
+.about-container {
+    background-color: white;
 }
 
 .linha {
-  width: 100%;
-  margin-top: 20px;
-  border: 1px solid white;
-  background-color: white;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:450px) {
+    .tribunal {
+        display: none;
+    }  
 }
 
-.links {
-    text-decoration: none;
-    color: #FFB850;
+
+.ornament {
+    position: absolute;
+    width: 100px;
+    height: 38.84px;
+    left: 291px;
+    top: 1096px;
+    z-index: -9;
 }
 
-.informes {
-    text-decoration: none;
-    color: #FFB850;
+.img-direita {
+    width: 100%;
+    height: 240px;
 }
 
-.time {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
+.orn13 {
+    position: absolute;
+    width: 129.76px;
+    height: 125px;
+    left: 1162px;
+    top: 800px;
+    z-index: -9;
 }
 
-.ano {
-    /* Body - Light */
+.orn77 {
+    position: absolute;
+    width: 92.35px;
+    height: 80px;
+    left: 10px;
+    top: 1171px;
+    z-index: -9;
+    background: #FFB850;
+    opacity: 0.5;
+}
 
-    font-family: 'Poppins';
+.segundo {
+    background-color: #FAF9F8;
+}
+
+.elipse {
+    width: 75px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 350px;
+    height: 350px;
+}
+
+
+.card-content {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content h4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start; 
+}
+.card-content-last {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    height: 100%;
+    
+}
+
+.text-card {
+    width: 70%;
+    
+}
+
+
+.card-content-paragrafo {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
-
-
-    color: #FFFFFF;
+    text-align: center;
+    color: #000000;
+    
 }
 
 .titulo {
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 20px;
     line-height: 30px;
     /* identical to box height */
+    color: #000000;
+}
 
-
-    color: #FFFFFF;
+.titulo1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
 }
 
 
-.btn-servicos:hover {
-    color: white;
-}
-
-
-
-
-/* Style da chamada para contato */
-
+/* Ultima secao */
 
 .fasjusej {
     color: #FFB850;
 }
 
-.btn-servicos { 
+.btn-servicos {
     padding: 14px 43px;
     width: 281px;
     height: 49px;
@@ -84,7 +153,6 @@
     text-decoration: none;
     color: #FFFFFF;
 }
-
 
 .btn-servicos:hover {
     color: white;
@@ -104,34 +172,6 @@
 
 .btn-conheca:hover {
     color: white;
-}
-
-@media (max-width:411px) {
-    .btn-conheca {
-        padding: 14px;
-        width: 234px;
-        height: 49px;
-        text-decoration: none;
-        color: white;
-        background: #DE2330;
-        box-shadow: 0px 12px 24px 6px rgba(242, 161, 90, 0.08), 0px 24px 48px 6px rgba(242, 161, 90, 0.08);
-        border-radius: 4px;
-    }
-    .btn-servicos {
-        padding: 14px;
-        width: 301px;
-        height: 49px;
-        background: #DE2330;
-        box-shadow: 0px 12px 24px 6px rgba(242, 161, 90, 0.08), 0px 24px 48px 6px rgba(242, 161, 90, 0.08);
-        border-radius: 4px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        text-decoration: none;
-        color: #FFFFFF;
-    }
 }
 
 .card1 {
@@ -162,31 +202,6 @@
     color: #000000;
 }
 
-
-
-
-.comeco {
-    background-image: url('../images/fundohome.svg') !important;
-    background-size: contain;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-@media (max-width: 1220px) {
-    .secao1 {
-        background-size: 40%;
-        transition: 0.2s;
-    }
-}
-
-@media (max-width: 920px) {
-    .secao1 {
-        background-size: 0%;
-    }
-}
-
-
 .secao2 {
     background-color: #FAF9F8;
 }
@@ -196,12 +211,33 @@
     background-size: contain;
 }
 
-.texto {
+.texto-contato {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #F2A15A;
+    }
+
+.entre-contato {
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 48px;
 
+    color: #000000;
+}
+
+.texto {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    
     color: #000000;
 }
 
@@ -228,10 +264,6 @@
 }
 
 .secao3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-image: url('assets/icons/imgfinal.svg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -240,6 +272,15 @@
     height: 400px;
 }
 
+.pergunta {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+/* identical to box height */
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.54);
+}
 
 .frase {
     font-style: normal;
@@ -250,11 +291,10 @@
 }
 
 .paragrafo {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 32px;
     line-height: 48px;
-
+    
     color: #000000;
 }
 
@@ -266,6 +306,17 @@
     color: #000000;
 }
 
+
+.cores {
+    color: #DE2330;
+}
+.resumo1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
 
 .frase-final {
     font-style: normal;
@@ -282,6 +333,6 @@
     line-height: 30px;
 }
 
-
-
-    
+.final-text {
+    margin-top: 100px;
+}
