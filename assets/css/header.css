@@ -3,16 +3,18 @@
 .navbar{
     background-color: var(--vermelho-escuro);
 }
-.menu-item{
+.nav-item{
     margin-left: 50px;
 }
-.menu-item a{
+.nav-item h4{
     font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
     color: var(--branco);
 }
-.menu-item:hover a{
+.nav-item:hover a{
     border-bottom: 2px solid var(--laranja-amarelado) !important;
 }
-.active>a{
+.ativo{
     border-bottom: 2px solid var(--laranja-amarelado) !important;
 }
