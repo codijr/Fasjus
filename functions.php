@@ -34,7 +34,11 @@
             wp_enqueue_style('home', get_template_directory_uri() . '/assets/css/home.css');     }
         if ( is_page('sobre') == true ) {
             // só vai carregar se estiver na pag sobre
-            wp_enqueue_style('sobre', get_template_directory_uri() . '/assets/css/membros.css');
+            wp_enqueue_style('membros', get_template_directory_uri() . '/assets/css/membros.css');
+        }
+        if ( is_page('sobre') == true ) {
+            // só vai carregar se estiver na pag sobre
+            wp_enqueue_style('sobre', get_template_directory_uri() . '/assets/css/sobre.css');
         }
         if (is_page('contato')==true) {
             // só vai carregar se estiver na page contato

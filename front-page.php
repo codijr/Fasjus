@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
 <main> 
-<div class="container-fluid">
-        <div class="container">
+<div class="container-fluid bg-white">
+        <div class="container comeco">
             <di class="row p-5">
-                <div class="col-12  text-center text-md-start text-xl-start">
+                <div class="col-12  text-center text-sm-start text-md-start text-xl-start">
                     <h5 class="mt-5 pergunta">FASJUS EJ</h5>
                     <h1 class="fw-bold frase">Time  <span class="fasjusej">pequeno</span> fazendo<br>
                     história 
@@ -45,15 +45,7 @@
     </div>
 </div>
 
-    <div class="container-fluid secao3">
-        <div class="chamada">
-            
-        <p class="text-center text-white chamadaa">Chamada do cliente para o contato</p>
-            <p class=" text-white frase-final">Frase para convidar o cliente <br> para contactar a empresa</p>
-            <p class="text-center mt-5"><a href="" class="btn-servicos text-center">Entre em contato</a></p>
-        </div>
-
-    </div>
+    
 </div>
 </main>
 

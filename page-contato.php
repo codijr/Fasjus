@@ -54,9 +54,5 @@
 
 
 
-<?php get_footer(); ?>
-
-<main>
-</main>
 
 <?php get_footer(); ?>
