@@ -16,6 +16,9 @@
                 </div>
                 
             </div>
+            <div class="caixa-um">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/caixinha.svg" alt="">
+                </div>
         </div>
     </div>
 

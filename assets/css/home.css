@@ -19,6 +19,9 @@
     color: #FFFFFF;
 }
 
+.caixa-um {
+    margin-top: -79px;
+}
 
 .btn-servicos:hover {
     color: white;
@@ -111,6 +114,12 @@
     .secao1 {
         background-size: 40%;
         transition: 0.2s;
+    }
+    .comeco {
+        background-size: 0%;
+    }
+    .caixa-um {
+        display: none;
     }
 }
 

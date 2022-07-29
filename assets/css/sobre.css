@@ -12,8 +12,9 @@
     display: flex;
     justify-content: space-between;
 }
-@media (max-width:450px) {
-    .tribunal {
+@media (max-width:1200px) {
+    .tribunal,
+    .trib-redondo {
         display: none;
     }  
 }
@@ -93,7 +94,14 @@
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.08);
     border-radius: 8px;
     height: 100%;
-    
+    border-width: 10px;
+}
+
+.barra-lateral {
+    border-left: 6px solid #F2A15A;
+    height: 75px ;
+    margin-left: -27px;
+    margin-bottom: -100px;
 }
 
 .text-card {
@@ -101,6 +109,16 @@
     
 }
 
+.caixa-um {
+    margin-top: -70px;
+}
+
+@media (max-width: 768px) {
+    .caixa-um {
+        display: none;
+    }
+    
+}
 
 .card-content-paragrafo {
     font-style: normal;
@@ -112,13 +130,14 @@
     
 }
 
-.titulo {
+.titulo-card {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
     /* identical to box height */
     color: #000000;
+    margin-top: 30px;
 }
 
 .titulo1 {

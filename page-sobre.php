@@ -10,6 +10,7 @@
 </div>
 
 <div class="container-fluid about-container">
+    
 <div class="container p-5">
     <div class="row mt-5 linha">
         <div class="col-12 col-md-12 col-xl-6">
@@ -29,7 +30,7 @@
 
 
     <div class="row linha mt-5">
-        <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center">
+        <div class="col-12 col-md-12 col-xl-6 d-flex justify-content-center img2">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/trib-redondo.svg" class= "trib-redondo mb-5" alt="">
         </div>
         <div class="col-12 col-md-12 col-xl-6">
@@ -40,8 +41,11 @@
         </div>
         
     </div>
-
+    
 </div>
+<div class="caixa-um">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/caixinha.svg" alt="">
+    </div>
 </div>
 
 <div class="container-fluid segundo">
@@ -86,20 +90,28 @@
 <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSA CULTURA ORGANIZACIONAL </h3>
 <p class="text-center text-md-start text-xl-start mb-5 entre-contato">Conheça o fit cultural da FASJUS</p>
 
-<div class="row d-flex justify-content-evenly">
+<div class="row barra d-flex justify-content-evenly">
     <div class="col-12 col-md-6 col-xl-4 mb-5">
+        
         <div class="card-content-last p-4">
-           <h5 class="mb-3 titulo">Missão</h5>
+        <div class="barra-lateral">
+        </div>
+           <h5 class="mb-3 titulo-card">Missão</h5>
             <p>Atuar positivamente no mercado jurídico auxiliando no desenvolvimento 
             socioeducativo dos membros, tornando-os profissionais ativos de alto impacto, 
             possibilitando tornar o Direito mais acessível e humanizado com os integrantes e 
             parceiros da FASJUS.</p>
+            
         </div>
+        
+        
         
     </div>
     <div class="col-12 col-md-6 col-xl-4 mb-5">
         <div class="card-content-last p-4">
-        <h5 class="mb-3 titulo">Visão</h5>
+        <div class="barra-lateral">
+        </div>
+        <h5 class="mb-3 titulo-card">Visão</h5>
         <p>Ser referência entre as Empresas Juniores de direito no mercado jurídico
         brasileiro, assegurando a satisfação do cliente e o desenvolvimento educacional
         dos membros da Empresa Júnior.</p>
@@ -107,8 +119,9 @@
     </div>
     <div class="col-12 col-md-6 col-xl-4 mb-5">
     <div class="card-content-last p-4">
- 
-    <h5 class="mb-3 titulo">Valores</h5>
+    <div class="barra-lateral">
+        </div>
+    <h5 class="mb-3 titulo-card">Valores</h5>
         <p>Acreditamos em empolgação, coragem, trabalho em equipe, comprometimento com o 
         cliente, responsabilidade, inovação, organização, inconformismo, e acima de tudo, priorizamos conexões mais humanas objetivando o bem-estar de nossos 
         clientes e membros.
