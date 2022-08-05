@@ -105,21 +105,15 @@ $count =0;
                             </a>   
                         </div>
                         <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
-                            <a href="<?php echo get_home_url() . "/category/noticias"?>">
+                            <a href="<?php echo get_home_url() . "/category/informacoes"?>">
                                 <span class="material-icons-outlined">feedback</span>
-                                <h5>Notícias</h5>
+                                <h5>Informações</h5>
                             </a>
                         </div>
                         <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
-                            <a href="<?php echo get_home_url() . "/category/artigos"?>">
+                            <a href="<?php echo get_home_url() . "/category/curiosidades"?>">
                                 <span class="material-icons-outlined">article</span>
-                                <h5>Artigos</h5>
-                            </a>
-                        </div>
-                        <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
-                            <a href="<?php echo get_home_url() . "/category/eventos"?>">
-                                <span class="material-icons-outlined">event</span>
-                                <h5>Eventos</h5>
+                                <h5>Curiosidades</h5>
                             </a>
                         </div>
                     </section>
@@ -136,14 +130,11 @@ $count =0;
                         if ( is_category('geral') == true ){
                             echo 'Geral';
                         }
-                        elseif ( is_category('noticias') == true ){
-                            echo 'Notícias';
+                        elseif ( is_category('informacoes') == true ){
+                            echo 'Informacoes';
                         }
-                        elseif ( is_category('artigos') == true ){
-                            echo 'Artigos';
-                        }
-                        elseif ( is_category('eventos') == true ){
-                            echo 'Eventos';
+                        elseif ( is_category('curiosidades') == true ){
+                            echo 'Curiosidades';
                         }
                         ?>
                     </h1>
