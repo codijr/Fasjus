@@ -15,23 +15,6 @@
     width: 60%;
     border-radius: 8px;
 }
-/* metricas */
-.card-metrica{
-    border-radius: 4px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #ffffff;
-    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.1);
-}
-.card-metrica-content h1{
-    font-weight: 700;
-}
-.card-metrica-content + .card-metrica-content{
-    border-left: 3px solid #F2A15A;
-}
-.titulo-metrica h1:nth-child(2){
-    color: #F2A15A;
-}
 
 
 /* Inicio pagina */

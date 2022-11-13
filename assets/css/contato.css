@@ -27,9 +27,22 @@
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
-    line-height: 48px;
-
     color: #000000;
+}
+
+@media (max-width: 768px) {
+    .entre-contato {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .mensagem {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 20px;
+        color: #000000;
+    }
 }
 
 .sub-titulo {

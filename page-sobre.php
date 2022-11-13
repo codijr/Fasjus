@@ -14,9 +14,9 @@
 <div class="container p-5">
     <div class="row mt-5 linha">
         <div class="col-12 col-md-12 col-xl-6">
-            <h3 class="text-center text-md-start text-xl-start texto-contato text-dark">QUEM SOMOS</h3>
-            <p class="text-center text-md-start text-xl-start entre-contato">Somos uma empresa de Impacto:</p>
-            <p class="text-center text-md-start text-xl-start mt-3 mb-5">A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
+            <h3 class="text-start text-md-start text-xl-start texto-contato text-dark">QUEM SOMOS</h3>
+            <p class="text-start text-md-start text-xl-start entre-contato">Somos uma empresa de Impacto:</p>
+            <p class="text-start text-md-start text-xl-start mt-3 mb-5">A FASJUS é uma Empresa Júnior do curso de Direito da Faculdade Ari de Sá 
                 (FAS), fundada em novembro de 2019 e federada no dia 01 de julho de 2020. A partir do inconformismo com a realidade e diante da vontade 
                 de expandir nossas capacidades intelectuais, profissionais, jurídicas e 
                 mercadológicas.
@@ -34,8 +34,8 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/trib-redondo.svg" class= "trib-redondo mb-5" alt="">
         </div>
         <div class="col-12 col-md-12 col-xl-6">
-            <p class="text-center text-md-start text-xl-start entre-contato mt-3">Soluções menos burocráticas, contato mais humanizado.</p>
-            <p class="mb-5 text-center text-md-start text-xl-start">Somos compostos por uma equipe de universitários que acreditam cada vez mais no poder da educação e que utilizam da <span class="text-warning">Advocacia Preventiva</span> para auxiliar os seus clientes na resolução de possíveis conflitos, além de guiá-los nas melhores escolhas assessorando os seus empreendimentos para uma 
+            <p class="text-start text-md-start text-xl-start entre-contato mt-3">Soluções menos burocráticas, contato mais humanizado.</p>
+            <p class="mt-3 mb-5 text-start text-md-start text-xl-start">Somos compostos por uma equipe de universitários que acreditam cada vez mais no poder da educação e que utilizam da <span class="text-warning">Advocacia Preventiva</span> para auxiliar os seus clientes na resolução de possíveis conflitos, além de guiá-los nas melhores escolhas assessorando os seus empreendimentos para uma 
             melhor relação no mundo jurídico.
             </p>
         </div>
@@ -50,8 +50,8 @@
 
 <div class="container-fluid segundo">
 <div class="container p-5">
-<h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSOS DIFERENCIAIS</h3>
-<p class="text-center text-md-start text-xl-start mb-5 entre-contato">Por que contratar os serviços da FASJUS?</p>
+<h3 class="text-start text-md-start text-xl-start texto-contato text-dark">NOSSOS DIFERENCIAIS</h3>
+<p class="text-start text-md-start text-xl-start mb-5 entre-contato">Por que contratar os serviços da FASJUS?</p>
 
 <div class="row d-flex justify-content-evenly align-items-center text-center">
     <div class="col-12 col-md-6 col-xl-4">
@@ -87,8 +87,8 @@
 
 <div class="container-fluid about-container">
 <div class="container p-5">
-<h3 class="text-center text-md-start text-xl-start texto-contato text-dark">NOSSA CULTURA ORGANIZACIONAL </h3>
-<p class="text-center text-md-start text-xl-start mb-5 entre-contato">Conheça o fit cultural da FASJUS</p>
+<h3 class="text-start text-md-start text-xl-start texto-contato text-dark">NOSSA CULTURA ORGANIZACIONAL </h3>
+<p class="text-start text-md-start text-xl-start mb-5 entre-contato">Conheça o fit cultural da FASJUS</p>
 
 <div class="row barra d-flex justify-content-evenly">
     <div class="col-12 col-md-6 col-xl-4 mb-5">
@@ -196,38 +196,7 @@
         </div>
     </div> 
 
-    <!-- Metricas -->
-
-    <div class="container p-5" id="section-metricas">
-    <div class="row">
-            <div class="col-12">
-                <h5> NOSSOS NÚMEROS</h5>
-                <h2> Frase sobre as métricas dos serviços da FASJUS</h2>
-            </div>    
-        </div>
-    <div class="row membros gx-5 text-center card-metrica align-itens-center justify-content-center">
-        <?php 
-            $args = array (
-                'post_type' => 'metrica',
-                'orderby' => 'date',
-                'order' => 'DSC',
-            );
-            $metrica_query = new WP_Query($args);
-            if($metrica_query->have_posts()) : 
-                while ($metrica_query->have_posts()) : $metrica_query->the_post(); ?>
-                        <div class="card-metrica-content col-lg-4 col-md-6 text-center  mb-5 mt-5 gap-3 ">
-                            <div class="titulo-metrica d-flex justify-content-center">
-                            <h1><?php echo get_the_title($post->ID);?></h1>
-                            <h1>+</h1>
-                            </div>
-                            <h5><?php echo get_the_excerpt($post->ID); ?></h5>
-                            <h2><?php echo get_the_content($post->ID); ?></h2>
-                    </div>
-            <?php endwhile; endif; wp_reset_postdata();?>
-        </div>
-    </div>  
-
-
+   
  <!-- Servicos -->
 
     <div class="container p-5" id="section-servicos">

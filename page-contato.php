@@ -2,7 +2,7 @@
 
 
 <div class="container-fluid caixa-contato p-5">
-    <div class="container mt-3 mb-5 p-5">
+    <div class="container mt-3 mb-5 p-1 p-xl-5">
     <h3 class="texto-contato fw-bold">CONTATO</h3>
     <h1 class="display-5 fw-bold text-white frase">Nosso contato</h1>
     </div>
@@ -11,10 +11,10 @@
 <div class="container mb-5 p-5">
     <div class="row mt-5">
         <div class="col-12 col-md-12 col-xl-7">
-            <h3 class="text-center text-md-start text-xl-start texto-contato text-dark mt-5">ENTRE EM CONTATO</h3>
-            <p class="text-center text-md-start text-xl-start entre-contato">Nós podemos ajudar a sua empresa na <br> área de advocacia</p>
-            <p class="text-center text-md-start text-xl-start sub-titulo mb-5">Preencha o formulário ao lado para entrar em contato.</p>
-            <p class="text-center text-md-start text-xl-start mensagem mb-5">Ou se preferir, nos mande uma mensagem no whatsapp:</p>
+            <h3 class="text-start text-md-start text-xl-start texto-contato text-dark mt-5">ENTRE EM CONTATO</h3>
+            <p class="text-start text-md-start text-xl-start entre-contato">Nós podemos ajudar a sua empresa na <br> área de advocacia</p>
+            <p class="text-start text-md-start text-xl-start sub-titulo mb-5">Preencha o formulário ao lado para entrar em contato.</p>
+            <p class="text-start text-md-start text-xl-start mensagem mb-5">Ou se preferir, nos mande uma mensagem no whatsapp:</p>
 
             <p class="text-center text-md-start text-xl-start"><a href="" class="btn-chat">Chat Via Whatsapp</a></p>
 
@@ -44,7 +44,7 @@
         </div>
       
         <div class="caixa-form col-12 col-md-12 col-xl-5 mt-5 text-start ">
-            <?php echo do_shortcode( '[contact-form-7 id="9" title="contato"]');?>
+            <?php echo do_shortcode( '[contact-form-7 id="5" title="Formulário de contato 1"]');?>
         </div>
     </div>
 </div>
