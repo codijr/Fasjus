@@ -100,19 +100,19 @@ $count =0;
                     <section class="row cats">
                         <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
                             <a href="<?php echo get_home_url() . "/category/geral"?>">
-                                <span class="material-icons-outlined">done</span>
+                                
                                 <h5>Geral</h5>
                             </a>   
                         </div>
                         <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
                             <a href="<?php echo get_home_url() . "/category/informacoes"?>">
-                                <span class="material-icons-outlined">feedback</span>
+                                
                                 <h5>Informações</h5>
                             </a>
                         </div>
                         <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
                             <a href="<?php echo get_home_url() . "/category/curiosidades"?>">
-                                <span class="material-icons-outlined">article</span>
+                               
                                 <h5>Curiosidades</h5>
                             </a>
                         </div>
