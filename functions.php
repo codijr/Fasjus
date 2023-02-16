@@ -48,6 +48,14 @@
             // só vai carregar se estiver na page contato
             wp_enqueue_style('servicos', get_template_directory_uri(). '/assets/css/servicos.css');
         }
+        if ( is_category() == true ) {
+            // só vai carregar se estiver em uma das categorias do blog
+            wp_enqueue_style('categoria', get_template_directory_uri() . '/assets/css/blog.css');
+        }
+        if ( is_single() == true ) {
+            // só vai carregar se estiver em um dos posts (single)
+            wp_enqueue_style('posts', get_template_directory_uri() . '/assets/css/single.css');
+        } 
        
     }
     add_action('wp_enqueue_scripts', 'css_files');

@@ -2,22 +2,30 @@
 $count =0;
 ?>
 <?php get_header();?>
+
 <main>
+<div class="container-fluid caixa-blog p-5">
+    <div class="container mt-3 mb-5 p-1 p-xl-5">
+    <h3 class="texto-blog fw-bold">BLOG</h3>
+    <h1 class="display-5 fw-bold text-white frase-blog">Nosso blog</h1>
+    </div>
+</div>
     <!--Ultimos posts-->
     <div class="ultimos pb-5" id="ultimas">
         <div class="container bolder">
-            <h1>Últimas notícias</h1>
+             <p>NOSSO BLOG</p>
+            <h4>Em destaque</h4>
             <div class="row mt-5">
                 <?php $posts = get_posts(array('numberposts' => 3));
                 foreach($posts as $post):?>
                 <?php if ( $count == 0 ){
                     echo '
-                    <div class="col-xl-6 col-lg-6 col-12 primeiro">
+                    <div class="col-xl-7 col-lg-7 col-12 primeiro">
                     ';
                 }?>
                 <?php if ( $count == 1 ){
                     echo '
-                    <div class="col-xl-6 col-lg-6 col-md-12 segundo">
+                    <div class="col-xl-5 col-lg-5 col-md-12 segundo">
                     ';
                 }?>
                 <a href="<?php echo $post->guid;?>">
@@ -50,7 +58,6 @@ $count =0;
                             </h3>
                             <div class="date">
                                 <div class="data">
-                                    <span class="material-icons">schedule</span>
                                     <h6>
                                         <?php setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                                         date_default_timezone_set('America/Sao_Paulo');
@@ -96,24 +103,50 @@ $count =0;
         <div id="categorias">
             <div class="container">
                 <div class="bolder pb-5">
-                    <h1 class="mb-5">Categorias</h1>
+                    <h4 class="mb-5">Categorias</h4>
                     <section class="row cats">
-                        <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
+                        <div class="categoria-item col-xl-3 col-lg-2 col-md-5 col-sm-5 col-11">
                             <a href="<?php echo get_home_url() . "/category/geral"?>">
-                                <span class="material-icons-outlined">done</span>
-                                <h5>Geral</h5>
-                            </a>   
+                            <div class="item1">
+                                <div class="img-item1">
+                                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/item1.svg" width="100%" alt=""> 
+                                </div>
+                                <div class="text-item1">
+                                <span class="material-icons-outlined">Geral</span>
+                                <p>As postagens mais recentes</p>
+                                </div>
+                                
+                            </div>
+                            </a> 
+                            
+                              
                         </div>
-                        <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
+                        <div class="categoria-item col-xl-3 col-lg-2 col-md-5 col-sm-5 col-11">
                             <a href="<?php echo get_home_url() . "/category/informacoes"?>">
-                                <span class="material-icons-outlined">feedback</span>
-                                <h5>Informações</h5>
+                            <div class="item1">
+                                <div class="img-item1">
+                                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/item1.svg" width="100%" alt=""> 
+                                </div>
+                                <div class="text-item1">
+                                <span class="material-icons-outlined">Feedback</span>
+                                <p>Infomações</p>
+                                </div>
+                                
+                            </div>
                             </a>
                         </div>
-                        <div class="categoria-item col-xl-2 col-lg-2 col-md-5 col-sm-5 col-11">
+                        <div class="categoria-item col-xl-3 col-lg-2 col-md-5 col-sm-5 col-11">
                             <a href="<?php echo get_home_url() . "/category/curiosidades"?>">
-                                <span class="material-icons-outlined">article</span>
-                                <h5>Curiosidades</h5>
+                            <div class="item1">
+                                <div class="img-item1">
+                                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/item1.svg" width="100%" alt=""> 
+                                </div>
+                                <div class="text-item1">
+                                <span class="material-icons-outlined">Article</span>
+                                <p>Curiosidades</p>
+                                </div>
+                                
+                            </div>
                             </a>
                         </div>
                     </section>
@@ -125,7 +158,7 @@ $count =0;
         <div id="blog">
             <div class="container">
                 <div class="bolder pb-5">
-                    <h1 class="mb-5">
+                    <h1 class="mb-5 title">
                         <?php
                         if ( is_category('geral') == true ){
                             echo 'Geral';
