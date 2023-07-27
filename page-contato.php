@@ -35,8 +35,8 @@
                 </div>
                 <div class="col-8 ms-4 d-flex flex-column mt-3">
                     
-                <p class="fw-bold">Ou envie um e-mail para a gente</p>
-                    <p>Fasjusej@gmail.com</p>
+                <p class="fw-bold">Ou envie uma mensagem via DM no instagram para a gente</p>
+                    <p>@fasjus.ej</p>
 
                 </div>
             </div>
