@@ -45,8 +45,8 @@
                         <p class="mt-3 titulo">Redes sociais</p>
                         <hr class="linha">
                         <div class="d-flex flex-column justify-content-between">
-                            <p class="mt-3 informes" ><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/local.svg" class="me-2" alt="">@fasjus.ej</p>
-                            <p class="mt-1 informes" ><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/local.svg" class="me-2" alt="">@FasJus - Escritorio de advocacia</p>
+                            <p class="mt-3 informes" ><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-insta.svg" width="15px" class="me-2" alt="">@fasjus.ej</p>
+                            <p class="mt-1 informes" ><img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-linkedin.svg" width="15px" class="me-2" alt="">@FasJus - Escritorio de advocacia</p>
                         </div>
                     </div>
                 </div>
