@@ -16,6 +16,10 @@
     color: #FFB850;
 }
 
+.links:hover {
+    color: white;
+}
+
 .informes {
     text-decoration: none;
     color: #FFB850;
