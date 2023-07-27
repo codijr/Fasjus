@@ -20,11 +20,11 @@
                         <p class="mt-3 titulo">Sessões</p>
                         <hr class="linha">
                         <div class="d-flex flex-column justify-content-between">
-                            <p class="mt-3"><a href="" class="links">Home</a></p>
-                            <p class=""><a href="" class="links">Quem somos</a></p>
-                            <p ><a href="" class="links">Sobre</a></p>
-                            <p ><a href="" class="links">Serviços</a></p>
-                            <p ><a href="" class="links">Blog</a></p>
+                            <p class="mt-3"><a href="<?php echo get_home_url(); ?>" class="links">Home</a></p>
+                            <p class=""><a href="<?php echo get_home_url(); ?>/sobre" class="links">Quem somos</a></p>
+                            <p ><a href="<?php echo get_home_url(); ?>/servicos" class="links">Serviços</a></p>
+                            <p ><a href="<?php echo get_home_url(); ?>/category/geral/" class="links">Blog</a></p>
+                            <p ><a href="<?php echo get_home_url(); ?>/contato" class="links">Contato</a></p>
                         </div>
                        
                     </div>
