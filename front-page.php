@@ -56,8 +56,8 @@
  <div class="container p-5" id="section-metricas">
     <div class="row">
             <div class="col-12">
-                <h5> NOSSOS NÚMEROS</h5>
-                <h2> Frase sobre as métricas dos serviços da FASJUS</h2>
+                <h5> NOSSAS CONQUISTAS</h5>
+                <h2> FASJUS em números</h2>
             </div>    
         </div>
     <div class="row membros gx-5 text-center card-metrica align-itens-center justify-content-center">
