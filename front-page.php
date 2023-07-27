@@ -11,7 +11,7 @@
                         <span class="fasjusej">grande</span>
                     </h1>
                     <h4 class="fw-light mb-5 mt-3 paragrafo">Insira um texto para conhecer a FASJUS de <br> maneira resumida.</h3>
-                    <a href="" class="btn-conheca">Conheça a FASJUS</a>
+                    <a href="<?php echo get_home_url(); ?>/sobre" class="btn-conheca">Conheça a FASJUS</a>
                     <br><br><br>
                 </div>
                 
@@ -30,7 +30,7 @@
                 <h1 class="fw-bold resumo text-start text-md-start text-xl-start">Resumo dos serviços da FASJUS para um possível cliente
                 </h1>
                 <h4 class="fw-light mb-5 mt-3 resumo1 text-start text-md-start text-xl-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac posuere nibh. Sed mauris dolor, volutpat in mauris id, rhoncus iaculis turpis.</h3>
-                <p class="mb-5 text-start text-md-start text-xl-start"><a href="" class="btn-servicos">Conheça o nossos serviços</a></p>
+                <p class="mb-5 text-start text-md-start text-xl-start"><a href="<?php echo get_home_url(); ?>/servicos" class="btn-servicos">Conheça o nossos serviços</a></p>
             </div>
             <div class="col-12 col-md-3 col-xl-3 text-center">
                 <div class="card1 mt-3">
