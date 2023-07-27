@@ -12,7 +12,7 @@
     <div class="row mt-5">
         <div class="col-12 col-md-12 col-xl-7">
             <h3 class="text-start text-md-start text-xl-start texto-contato text-dark mt-5">ENTRE EM CONTATO</h3>
-            <p class="text-start text-md-start text-xl-start entre-contato">Nós podemos ajudar a sua empresa na <br> área de advocacia</p>
+            <p class="text-start text-md-start text-xl-start entre-contato">Nós podemos ajudar a sua empresa na área de advocacia</p>
             <p class="text-start text-md-start text-xl-start sub-titulo mb-5">Preencha o formulário ao lado para entrar em contato.</p>
             <p class="text-start text-md-start text-xl-start mensagem mb-5">Ou se preferir, nos mande uma mensagem no whatsapp:</p>
 
