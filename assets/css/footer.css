@@ -18,6 +18,7 @@
 
 .links:hover {
     color: white;
+    transition: 0.3s;
 }
 
 .informes {
@@ -93,6 +94,7 @@
 .btn-servicos:hover {
     color: white;
     background: #8E0332;
+    transition: 0.4s;
 }
 
 .btn-conheca {

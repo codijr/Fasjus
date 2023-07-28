@@ -29,7 +29,6 @@
 
 .btn-conheca {
     padding: 14px 50px;
-    
     width: 234px;
     height: 49px;
     text-decoration: none;
@@ -40,7 +39,8 @@
 }
 
 .btn-conheca:hover {
-    color: white;
+    background: #8E0332;
+    transition: 0.3s;
 }
 
 @media (max-width:411px) {

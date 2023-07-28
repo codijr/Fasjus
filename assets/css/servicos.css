@@ -45,6 +45,12 @@
 .link-contato a{
     color: #ffffff;
 }
+
+.link-contato:hover{
+    background: #8E0332;
+    transition: 0.3s;
+}
+
 @media(max-width:950px){
     .card-servico-content{
         /* height: 100%; */

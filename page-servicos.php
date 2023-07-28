@@ -39,7 +39,7 @@
                         
                     </div>
                     <div class="link-contato text-center">
-                    <a href="<?php echo get_home_url() . "/contato/"?>">Entre em contato</a>
+                    <a href="<?php echo get_home_url(); ?>/contato">Entre em contato</a>
                     </div>
                 </div>
                         
