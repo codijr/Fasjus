@@ -30,7 +30,7 @@
                 <h1 class="fw-bold resumo text-start text-md-start text-xl-start">Nossos serviços
                 </h1>
                 <h4 class="fw-light mb-5 mt-3 resumo1 text-start text-md-start text-xl-start">A FASJUS oferece serviços de consultoria e assessoria jurídica, fornecendo suporte especializado em questões legais para clientes de diversos setores.</h3>
-                <p class="mb-5 text-start text-md-start text-xl-start"><a href="<?php echo get_home_url(); ?>/servicos" class="btn-servicos">Conheça o nossos serviços</a></p>
+                <p class="mb-5 text-start text-md-start text-xl-start"><a href="<?php echo get_home_url(); ?>/servicos" class="btn-servicos">Conheça nossos serviços</a></p>
             </div>
             <div class="col-12 col-md-3 col-xl-3 text-center">
                 <div class="card1 mt-3">
