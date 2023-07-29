@@ -10,7 +10,7 @@
                     história 
                         <span class="fasjusej">grande</span>
                     </h1>
-                    <h4 class="fw-light mb-5 mt-3 paragrafo">Insira um texto para conhecer a FASJUS de <br> maneira resumida.</h3>
+                    <h4 class="fw-light mb-5 mt-3 paragrafo">Venha nos conhecer!</h3>
                     <a href="<?php echo get_home_url(); ?>/sobre" class="btn-conheca">Conheça a FASJUS</a>
                     <br><br><br>
                 </div>
@@ -27,21 +27,21 @@
         <div class="row p-5">
             <div class="col-12 col-md-6 col-xl-6 text-start mb-3">
                 <h5 class="pergunta text-start text-md-start text-xl-start">O QUE FAZEMOS</h5>
-                <h1 class="fw-bold resumo text-start text-md-start text-xl-start">Resumo dos serviços da FASJUS para um possível cliente
+                <h1 class="fw-bold resumo text-start text-md-start text-xl-start">Nossos serviços
                 </h1>
-                <h4 class="fw-light mb-5 mt-3 resumo1 text-start text-md-start text-xl-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac posuere nibh. Sed mauris dolor, volutpat in mauris id, rhoncus iaculis turpis.</h3>
+                <h4 class="fw-light mb-5 mt-3 resumo1 text-start text-md-start text-xl-start">A FASJUS oferece serviços de consultoria e assessoria jurídica, fornecendo suporte especializado em questões legais para clientes de diversos setores.</h3>
                 <p class="mb-5 text-start text-md-start text-xl-start"><a href="<?php echo get_home_url(); ?>/servicos" class="btn-servicos">Conheça o nossos serviços</a></p>
             </div>
             <div class="col-12 col-md-3 col-xl-3 text-center">
                 <div class="card1 mt-3">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/img1.svg" class="mt-5 mb-4" alt="">
-                    <p class="fw-bold">Consultoria Juridica</p>
+                    <p class="fw-bold">Consultoria Jurídica</p>
                 </div>
             </div>
             <div class="col-12 col-md-3 col-xl-3 text-center">
                 <div class="card1 mt-3">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/martelo.svg" class="mt-5 mb-4" alt="">
-                    <p class="fw-bold">Consultoria Juridica</p>
+                    <p class="fw-bold">Assessoria Jurídica</p>
                 </div>
             </div>
         </div>
