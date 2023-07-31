@@ -543,4 +543,35 @@ a{
     background-color: transparent;
 }
 
+@media (max-width: 375px) {
+    .infos .calendario-icon{
+        margin-left: -20%;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .infos .calendario-icon{
+        margin-left: 7%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .infos .calendario-icon{
+        margin-left: 185px;
+        margin-right: 5%;
+    }
+    .infos .post-info1{
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .categoria-item{
+        width: 25%;
+    }
+    .infos .post-info1{
+        margin-top: -330px;
+    }
+}
+
 

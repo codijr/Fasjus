@@ -16,7 +16,7 @@
             <h6 class="text-title-section"> NOSSOS SERVIÇOS</h6>
             <h4>Soluções</h4>
         </div>
-        <div class="row servicos gx-5">
+        <div class="row servicos gx-4">
         <?php 
             $args = array (
                 'post_type' => 'servico',

@@ -55,10 +55,10 @@
 @media(max-width:950px){
     .card-servico-content{
         /* height: 100%; */
-        width: 100%;
+        width: 90%;
     }
     .link-contato{
-        width: 100%;
+        width: 90%;
     }
 
 }
