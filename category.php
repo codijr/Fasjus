@@ -57,7 +57,7 @@ $count =0;
                                 </div>
                             </div>
                             <h3 class="post-title">
-                                <a href="<?php the_permalink() ?>" >
+                                <a class="titulo" href="<?php the_permalink() ?>" >
                                 <h3>
                                     <?php if (strlen($post->post_title) > 45) {
                                     echo substr(the_title($before = '', $after = '', FALSE), 0, 45) . '...'; } 
@@ -186,10 +186,15 @@ $count =0;
                                                 ?>
                                                 
                                             </h3>
-                                            <div class="text-teste">
-                                                <?php the_excerpt();?>
-                                            </div>
                                         </a>
+                                        <div class="recent-info">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-calendario.svg" alt=""> 
+                                                <h6 class="recent-date">
+                                                    <?php setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+                                                    date_default_timezone_set('America/Sao_Paulo');
+                                                    echo strftime('%d/%m/%Y', strtotime($post->post_date));?>
+                                                </h6>
+                                        </div>
                                     </div>      
                                 
                             </a><br>

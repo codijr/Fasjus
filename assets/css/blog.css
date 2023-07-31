@@ -179,6 +179,11 @@ a{
     margin-top: 5%;
 }
 
+.infos .titulo:hover{
+    color: #8E0332;
+    transition: 0.3s;
+}
+
 .primeiro .teste{
     background-color: rgb(0,0,0,0.3);
     z-index: -1;
@@ -522,3 +527,20 @@ a{
 #recent-post:hover{
     color: #000;
 }
+
+.infos .recent-info{
+    display:flex;
+    align-items: center;
+}
+
+.infos .recent-info .recent-date{
+    background-color: transparent;
+    margin-top: 9px;
+    font-weight: 400;
+}
+
+.infos .recent-info .recent-date:hover{
+    background-color: transparent;
+}
+
+
