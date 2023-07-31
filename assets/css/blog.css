@@ -75,27 +75,9 @@ a{
     color: black;
 }
 
-/* .categoria-item>a:hover>span,
-.categoria-item>a:hover>h5{
-    color: #E6CE1D;
-    border-radius: 8px;
-} */
-
-.categoria-item {  position:relative;}
-
-/* .categoria-item::before, .categoria-item::after { content:""; display:block; box-sizing:border-box;
-                      position:absolute;z-index:5; pointer-events: none; 
-                      width:0; height:0; opacity:0; border:4px solid #E6CE1D } */
-
-                      .categoria-item::before { border-left:none; border-bottom:none; left:0; top:0;
-            transition:width .5s linear 1.5s, height .5s linear 1s, opacity .1s 2s }
-            .categoria-item::after  { border-top:none; border-right:none; right:0; bottom:0;
-            transition:width .5s linear .5s, height .5s linear, opacity .1s 1s }
-
-            .categoria-item:hover::before, .categoria-item:hover::after  { width:100%; height:100%; opacity:1 }
-
-            .categoria-item:hover::before { transition:width .5s linear, height .5s linear .5s, opacity .1s }
-            .categoria-item:hover::after  { transition:width .5s linear 1s, height .5s linear 1.5s, opacity .1s 1s }
+.categoria-item {  
+    position:relative;
+}
 
 #blog{
     padding-top: 4rem;
@@ -109,7 +91,18 @@ a{
 }
 
 .text-item1 {
-    /* border: 1px solid red; */
+    color: #DE2330;
+    font-weight: 600;
+}
+
+.text-item1:hover{
+    color: #8E0332;
+    transition: 0.3s;
+}
+
+.categoria-descricao{
+    color:#000;
+    font-weight: 400;
 }
 
 .primeiro .banner{
@@ -133,11 +126,44 @@ a{
    
 }
 .primeiro .infos{
-    /*
-    background-color: rgb(0,0,0,0.3);
-    */
-    margin-top: 70%;
-    padding-bottom: 0rem;
+    width: auto;
+    margin-top: 6%;
+    
+}
+
+.infos .info-categoria{
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    width: fit-content;
+    background-color: #F2A15A;
+    border-radius: 25px;
+    font-weight: 400;
+}
+
+.infos .info-categoria:hover{
+    background-color: #8E0332;
+    transition: 0.3s;
+}
+
+.infos .post-info1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.infos .data{
+    display: flex;
+    margin-left: 48%;
+}
+
+#data-post{
+    font-weight: 400;
+    margin-top: 9px;
+}
+
+.calendario-icon{
+    margin-right: 10%;
 }
 
 .infos .date{
@@ -376,20 +402,6 @@ a{
 .ultimos .infos a{
     font-size: 15px;
     color: #000;
-}
-
-
-
-.ultimos .infos a:nth-child(n+2):hover{
-    font-weight: 700;
-    color:#E6CE1D ;
-    
-}
-
-.ultimos .infos a:nth-child(1):hover{
-    color:#E6CE1D ;
-    transition: all 1s ease;
-
 }
 
 .postagens .banner{

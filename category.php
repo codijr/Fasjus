@@ -41,10 +41,21 @@ $count =0;
                                     echo get_template_directory_uri()."/assets/images/logo2.svg";
                             }?>" 
                             alt="Noticia"
-                        >  
-                                                  
+                        >         
+                    </div>
+                    <div>          
                         <div class="infos">
-                            <h6><?php the_category(', ');?></h6>
+                            <div class="post-info1">
+                                    <h6 class="info-categoria"><?php the_category(', ');?></h6>
+                                <div class="data">
+                                    <img class="calendario-icon" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-calendario.svg" alt=""> 
+                                    <h6 id="data-post">
+                                        <?php setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+                                        date_default_timezone_set('America/Sao_Paulo');
+                                        echo strftime('%d/%m/%Y', strtotime($post->post_date));?>
+                                    </h6>
+                                </div>
+                            </div>
                             <h3>
                                 <a href="<?php the_permalink() ?>" >
                                 <h3>
@@ -56,31 +67,7 @@ $count =0;
                                 </h3>
                                 </a>
                             </h3>
-                            <div class="date">
-                                <div class="data">
-                                    <h6>
-                                        <?php setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-                                        date_default_timezone_set('America/Sao_Paulo');
-                                        echo strftime('%d/%m/%Y', strtotime($post->post_date));?>
-                                    </h6>
-                                </div>
-                                <div class="time">
-                                    <h6>
-                                        <?php $content = get_post_field( 'post_content', $post->ID );
-                                        $quantidade_palavras = str_word_count( strip_tags( $content ) );
-                                        $tempo_leitura = ceil($quantidade_palavras / 250);
-                                        if($tempo_leitura == 1){
-                                            echo $tempo_leitura." minuto de leitura";
-                                        }
-                                        else{
-                                            echo strval($tempo_leitura)." minutos de leitura";
-                                        }?>
-                                    </h6>
-                                </div>
-                            </div>
                         </div>
-                        <div class="teste">
-                        </div>        
                     </div>
                 </a><br>
                 <?php if ( $count == 0 or $count == 2 ){
@@ -112,8 +99,8 @@ $count =0;
                                 <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/item1.svg" width="100%" alt=""> 
                                 </div>
                                 <div class="text-item1">
-                                <span class="material-icons-outlined">Geral</span>
-                                <p>As postagens mais recentes</p>
+                                    <span class="material-icons-outlined">Geral</span>
+                                    <p class="categoria-descricao">As postagens mais recentes</p>
                                 </div>
                                 
                             </div>
@@ -125,11 +112,11 @@ $count =0;
                             <a href="<?php echo get_home_url() . "/category/informacoes"?>">
                             <div class="item1">
                                 <div class="img-item1">
-                                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/item1.svg" width="100%" alt=""> 
+                                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-informacoes.svg" width="100%" alt=""> 
                                 </div>
                                 <div class="text-item1">
-                                <span class="material-icons-outlined">Feedback</span>
-                                <p>Infomações</p>
+                                    <span class="material-icons-outlined">Informações</span>
+                                    <p class="categoria-descricao">Feedback</p>
                                 </div>
                                 
                             </div>
@@ -139,11 +126,11 @@ $count =0;
                             <a href="<?php echo get_home_url() . "/category/curiosidades"?>">
                             <div class="item1">
                                 <div class="img-item1">
-                                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/item1.svg" width="100%" alt=""> 
+                                <img class="" src="<?php echo get_template_directory_uri(); ?>/assets/icons/icon-curiosidades.svg" width="100%" alt=""> 
                                 </div>
                                 <div class="text-item1">
-                                <span class="material-icons-outlined">Article</span>
-                                <p>Curiosidades</p>
+                                    <span class="material-icons-outlined">Curiosidades</span>
+                                    <p class="categoria-descricao">Artigos</p>
                                 </div>
                                 
                             </div>
