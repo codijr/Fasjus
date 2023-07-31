@@ -449,18 +449,19 @@ a{
     background-color: #F2A15A;
     border-radius: 25px;
     width: 115px;
+    color: #000000;
+    padding: 5%;
+}
+
+.postagens .infos h6:hover{
+    background-color: #8E0332;
+    transition: 0.3s;
 }
 
 .posts .infos a{
     color: black;
     font-size: 15px;
 }
-
-.posts .infos a:hover{
-    color:#E6CE1D ;
-    transition: all 0.5s ease;
-}
-
 
 .text-teste{
     text-align: justify;
@@ -489,7 +490,7 @@ a{
 }
 
 .carrossel-posts .page-numbers:hover{
-    color: #E6CE1D;
+    color: #8E0332;
 }
 
 .carrossel-posts a:last-child{
@@ -506,14 +507,18 @@ a{
 
 .carrossel-posts a:last-child:hover,
 .carrossel-posts a:first-child:hover{
-    color: #BBA608;
+    color: #8E0332;
 }
 
 .carrossel-posts span.page-numbers.current{
     color: #fff;
-    background-color: #E6CE1D;
+    background-color: #8E0332;
 }
 
 .title {
     font-size: 32px;
+}
+
+#recent-post:hover{
+    color: #000;
 }

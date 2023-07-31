@@ -175,7 +175,7 @@ $count =0;
                                                         }?>" alt="Noticia">  
                                 </div>
                                     <div class="infos mt-3 mb-3">
-                                        <h6><?php the_category(', ');?></h6>
+                                        <h6><?php the_category(', ');?></h6>                       
                                         <a href="<?php the_permalink() ?>" >
                                             <h3>
                                                 
