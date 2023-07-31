@@ -28,7 +28,7 @@
                             <span class="material-icons">schedule</span>
                         </div>
                         <div>
-                            <h6>
+                            <h6 class="single-information">
                                 <?php setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
                                 date_default_timezone_set('America/Sao_Paulo');
                                 echo strftime('%d/%m/%Y', strtotime($post->post_date));?>
@@ -37,21 +37,21 @@
                     </div>
 
                     <div>
-                    <h6>
-                        <?php $content = get_post_field( 'post_content', $post->ID );
-                        $quantidade_palavras = str_word_count( strip_tags( $content ) );
-                        $tempo_leitura = ceil($quantidade_palavras / 250);
-                        if($tempo_leitura == 1){
-                            echo $tempo_leitura." minuto de leitura";
-                        }
-                        else{
-                            echo strval($tempo_leitura)." minutos de leitura";
-                        }?>
-                    </h6>
+                        <h6 class="single-information">
+                            <?php $content = get_post_field( 'post_content', $post->ID );
+                            $quantidade_palavras = str_word_count( strip_tags( $content ) );
+                            $tempo_leitura = ceil($quantidade_palavras / 250);
+                            if($tempo_leitura == 1){
+                                echo $tempo_leitura." minuto de leitura";
+                            }
+                            else{
+                                echo strval($tempo_leitura)." minutos de leitura";
+                            }?>
+                        </h6>
                     </div>
 
                     <div>
-                        <h6 class="post-categoria"><?php the_category(', ');?></h6>
+                        <h6 class="post-categoria single-information"><?php the_category(', ');?></h6>
                     </div>
                 </div>
             </div>
@@ -141,9 +141,9 @@
                                                         }?>" alt="Noticia">  
                                 </div>
                                     <div class="infos mt-3 mb-3">
-                                        <h6><?php the_category(', ');?></h6>
+                                        <h6 class="latest-post"><?php the_category(', ');?></h6>
                                         <h3>
-                                            <a href="<?php the_permalink() ?>" >
+                                            <a class="latest-information" href="<?php the_permalink() ?>" >
                                                 <?php if (strlen($post->post_title) > 45) {
                                                 echo substr(the_title($before = '', $after = '', FALSE), 0, 45) . '...'; } 
                                                 else {
@@ -152,7 +152,7 @@
                                             </a>
                                         </h3>
                                         <div class="text-teste">
-                                            <a href="<?php the_permalink() ?>" >
+                                            <a class="latest-information" href="<?php the_permalink() ?>" >
                                                 <?php the_excerpt();?>
                                             </a>
                                         </div>

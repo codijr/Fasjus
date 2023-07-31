@@ -36,6 +36,11 @@ a{
     flex-wrap: wrap;
 }
 
+.single-information{
+    padding: 5px;
+    font-weight: 400;
+}
+
 .post-info a{
     color: black;
 }
@@ -226,14 +231,12 @@ h6 {
     color: black;
 }
 
-.posts .infos a:nth-child(n+2):hover{
-    font-weight: 700;
-    color:#E6CE1D ;
-    
+.latest-post:hover{
+    background-color: #8E0332;
+    transition: 0.3s;
 }
 
-.posts .infos a:nth-child(1):hover{
-    color:#E6CE1D ;
-    transition: all 0.5s ease;
-
+.infos .latest-information:hover{
+    color: #8E0332;
+    transition: 0.3s;
 }
