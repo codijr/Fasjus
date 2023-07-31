@@ -56,7 +56,7 @@ $count =0;
                                     </h6>
                                 </div>
                             </div>
-                            <h3>
+                            <h3 class="post-title">
                                 <a href="<?php the_permalink() ?>" >
                                 <h3>
                                     <?php if (strlen($post->post_title) > 45) {

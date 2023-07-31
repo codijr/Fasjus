@@ -51,7 +51,7 @@
                     </div>
 
                     <div>
-                        <h6><?php the_category(', ');?></h6>
+                        <h6 class="post-categoria"><?php the_category(', ');?></h6>
                     </div>
                 </div>
             </div>

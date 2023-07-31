@@ -134,7 +134,7 @@ a{
 .infos .info-categoria{
     justify-content: center;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
     width: fit-content;
     background-color: #F2A15A;
     border-radius: 25px;
@@ -154,7 +154,7 @@ a{
 
 .infos .data{
     display: flex;
-    margin-left: 48%;
+    margin-left: 46%;
 }
 
 #data-post{
@@ -173,6 +173,10 @@ a{
 }
 .infos .date>p{
     margin-left:0.5rem ;
+}
+
+.post-title{
+    margin-top: 5%;
 }
 
 .primeiro .teste{
