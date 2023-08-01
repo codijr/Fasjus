@@ -167,7 +167,7 @@ $count =0;
                         <div class="col-xl-4 col-lg-4 col-md-6 col-12 postagens mt-3">
                             <a href="<?php echo $post->guid;?>">
                                 <div class="banner">
-                                    <img class="thumb" <?php if(!has_post_thumbnail( $post->ID )){
+                                    <img class="thumb last-posts" <?php if(!has_post_thumbnail( $post->ID )){
                                             echo "no-thumbnail";
                                         }?>" 
                                             src="<?php if(has_post_thumbnail( $post->ID )){
@@ -181,13 +181,11 @@ $count =0;
                                         <h6><?php the_category(', ');?></h6>                       
                                         <a href="<?php the_permalink() ?>" >
                                             <h3>
-                                                
                                                 <?php if (strlen($post->post_title) > 45) {
                                                     echo substr(the_title($before = '', $after = '', FALSE), 0, 45) . '...'; } 
                                                     else {
                                                     the_title();} 
                                                 ?>
-                                                
                                             </h3>
                                         </a>
                                         <div class="recent-info">

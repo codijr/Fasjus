@@ -512,6 +512,10 @@ a{
     text-align: justify;
 }
 
+.last-posts{
+   margin-left: -45%;
+}
+
 .carrossel-posts{
     flex-direction: column;
 }
@@ -693,6 +697,30 @@ a{
     }
     .segundo .infos .calendario-icon{
         margin-top: -1%;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .last-posts{
+        margin-left: 0;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .last-posts{
+        margin-left: -15%;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    .last-posts{
+        margin-left: 0;
+    }
+}
+
+@media(min-width:1400px){
+    .last-posts{
+        margin-left: -55%;
     }
 }
 
