@@ -2,7 +2,7 @@
 <footer>
     <div class="container-fluid secao3">
         <div class="chamada">
-            <p class=" text-white frase-final">Convidamos você a entrar em contato conosco <br> para obter o melhor atendimento possível!</p>
+            <p class=" text-white frase-final">Entre em contato conosco <br> para obter o melhor atendimento possível!</p>
             <p class="text-center mt-5"><a href="<?php echo get_home_url(); ?>/contato" class="btn-servicos text-center">Entre em contato</a></p>
         </div>
 

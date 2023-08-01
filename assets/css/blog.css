@@ -362,11 +362,6 @@ a{
         width: 235px;
     }
 
-    .postagens .banner img{
-        height: 350px;
-        width: 350px;
-    }
-
     .postagens .infos{
         margin-right: 2rem;
     }
@@ -638,7 +633,7 @@ a{
     }
 }
 
-@media (min-width: 1052px) and (max-width: 1439px) {
+@media (min-width: 1025px) and (max-width: 1199px) {
     .primeiro .infos .post-info1{
         margin-top: -330px;
     }
