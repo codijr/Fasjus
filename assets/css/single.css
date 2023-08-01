@@ -93,6 +93,7 @@ h6 {
     border-radius: 25px;
     width: 115px;
     font-size: 15px;
+    padding: 7px;
 }
 .social-wrapper .hide-on-mobile{
     font-size: 1.5rem;
