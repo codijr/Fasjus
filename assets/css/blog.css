@@ -131,7 +131,7 @@ a{
     
 }
 
-.infos .info-categoria{
+.primeiro .infos .info-categoria{
     justify-content: center;
     text-align: center;
     padding: 8px;
@@ -141,32 +141,32 @@ a{
     font-weight: 400;
 }
 
-.infos .info-categoria:hover{
+.primeiro .infos .info-categoria:hover{
     background-color: #8E0332;
     transition: 0.3s;
 }
 
-.infos .post-info1{
+.primeiro .infos .post-info1{
     width: 80%;
     display: flex;
     align-items: center;
 }
 
-.infos .data{
+.primeiro .infos .data{
     display: flex;
     margin-left: 46%;
 }
 
-#data-post{
+.primeiro #data-post{
     font-weight: 400;
     margin-top: 9px;
 }
 
-.calendario-icon{
+.primeiro .calendario-icon{
     margin-right: 10%;
 }
 
-.infos .date{
+.primeiro .infos .date{
     display: flex;
     flex-direction: column;
     color: #000;
@@ -175,11 +175,11 @@ a{
     margin-left:0.5rem ;
 }
 
-.post-title{
+.primeiro .post-title{
     margin-top: 5%;
 }
 
-.infos .titulo:hover{
+.primeiro .infos .titulo:hover{
     color: #8E0332;
     transition: 0.3s;
 }
@@ -193,14 +193,59 @@ a{
     top: 65%;
 }
 
-.data,.time{
+.primeiro .data .time{
     display: flex;
 }
 
-.postagens .banner img{
+.primeiro .postagens .banner img{
     height: auto !important;
     width: 100% !important;
 }
+
+.segundo .infos{
+    height: 100%;
+    width: 100%;
+}
+
+.segundo .blog-format{
+    display: flex;
+    margin-bottom:10%;
+}
+
+.segundo .infos .data{
+    display: flex;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.segundo .infos .data .calendario-icon{
+    margin-right: 3%;
+}
+
+.segundo .infos #data-post{
+    margin-top: 12%;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.segundo .infos .info-categoria{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0;
+    width: fit-content;
+    background-color: #F2A15A;
+    border-radius: 25px;
+    font-weight: 400;
+
+}
+
+.segundo .infos .info-categoria:hover{
+    background-color: #8E0332;
+    transition: 0.3s;
+}
+
 
 @media (max-width:576px){
     .cats{
@@ -544,19 +589,19 @@ a{
 }
 
 @media (max-width: 375px) {
-    .infos .calendario-icon{
+    .primeiro .infos .calendario-icon{
         margin-left: -20%;
     }
 }
 
 @media (min-width: 376px) and (max-width: 425px) {
-    .infos .calendario-icon{
+    .primeiro .infos .calendario-icon{
         margin-left: 7%;
     }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    .infos .calendario-icon{
+    .primeiro .infos .calendario-icon{
         margin-left: 185px;
         margin-right: 5%;
     }
@@ -574,4 +619,15 @@ a{
     }
 }
 
+@media (min-width: 1052px) and (max-width: 1439px) {
+    .primeiro .infos .post-info1{
+        margin-top: -330px;
+    }
+}
+
+@media (min-width: 1440px){
+    .primeiro .infos .calendario-icon{
+        margin-left: -28%;
+    }
+}
 
