@@ -597,17 +597,26 @@ a{
     }
 }
 
-@media (min-width: 376px) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 424px) {
     .primeiro .infos .post-info1{
         margin-top: 6%;
     }
     .primeiro .infos .calendario-icon{
-        margin-left: 7%;
+        margin-left: -18%;
     }
     .segundo .infos .calendario-icon{
         height: 25px;
         width: 25px;
         margin-top: 7%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 425px){
+    .primeiro .infos .calendario-icon{
+        margin-left: 7%;
+    }
+    .primeiro .infos .post-info1{
+        margin-top: 5%;
     }
 }
 
