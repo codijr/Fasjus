@@ -166,13 +166,7 @@
 
 
 <div class="container p-5" id="section-membros">
-    <div class="row ">
-            <div class="col-12 m-0 p-0">
-                <h5> NOSSO TIME</h5>
-                <h2> Conheça a equipe da Fasjus</h2>
-            </div>    
-        </div>
-    
+
     <div class="row membros gx-5 text-center">
         <?php 
             $args = array (
