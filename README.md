@@ -13,6 +13,7 @@ Project architected and developed by:
 <ul>
     <li>Fernando Henrique Sousa Campos (Designer UX/UI)</li>
     <li>Erick Gomes Monteiro (Designer UX/UI)</li>
+    <li>Gabriel Vieira Marques (Developer)</li>
     <li>Alice Fortes Pereira (Developer)</li>
     <li>Iago Wesley Irineu Costa (Developer)</li>
 </ul> 
